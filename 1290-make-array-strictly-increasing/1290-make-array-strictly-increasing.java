@@ -2,37 +2,30 @@ class Solution {
     public int makeArrayIncreasing(int[] arr1, int[] arr2) {
         Arrays.sort(arr2);
         
-        int answer = dfs(0, -1, arr1, arr2);
+        int answer = helper(arr1, arr2, -1, 0);
         
         return answer < 2_001 ? answer : -1;
     }
     
-    Map<Pair<Integer, Integer>, Integer> dp = new HashMap<>();
-    private int dfs(int i, int prev, int[] arr1, int[] arr2) {
-        if (i == arr1.length) {
+    Map<Pair<Integer, Integer>, Integer> memo = new HashMap<>();
+    public int helper(int[] arr1, int[] arr2, int prev, int index) {
+        Pair<Integer, Integer> pair = new Pair<>(index, prev);
+        if (index > arr1.length - 1) {
             return 0;
         }
-        if (dp.containsKey(new Pair<>(i, prev))) {
-            return dp.get(new Pair<>(i, prev));
+        if (memo.containsKey(pair)) {
+            return memo.get(pair);
         }
-
-        int cost = 2_001;
-
-        // If arr1[i] is already greater than prev, we can leave it be.
-        if (arr1[i] > prev) {
-            cost = dfs(i + 1, arr1[i], arr1, arr2);
+        int ans = 2001;
+        if (arr1[index] > prev) {
+            ans = Math.min(ans, helper(arr1, arr2, arr1[index], index + 1));
         }
-
-        // Find a replacement with the smallest value in arr2.
         int idx = binarySearch(arr2, prev);
-
-        // Replace arr1[i], with a cost of 1 operation.
-        if (idx < arr2.length) {
-            cost = Math.min(cost, 1 + dfs(i + 1, arr2[idx], arr1, arr2));
+        if (idx != -1) {
+            ans = Math.min(ans, 1 + helper(arr1, arr2, arr2[idx], index + 1));
         }
-
-        dp.put(new Pair<>(i, prev), cost);
-        return cost;
+        memo.put(pair, ans);
+        return ans;
     }
     
     public int binarySearch(int[] arr, int target) {
@@ -46,6 +39,6 @@ class Solution {
                 high = mid;
             }
         }
-        return arr[low] > target ? low : arr.length;
+        return arr[low] > target ? low : -1;
     }
 }
