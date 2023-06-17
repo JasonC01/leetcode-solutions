@@ -24,7 +24,7 @@ class Solution {
         }
 
         // Find a replacement with the smallest value in arr2.
-        int idx = bisectRight(arr2, prev);
+        int idx = binarySearch(arr2, prev);
 
         // Replace arr1[i], with a cost of 1 operation.
         if (idx < arr2.length) {
@@ -35,16 +35,17 @@ class Solution {
         return cost;
     }
     
-    private static int bisectRight(int[] arr, int value) {
-        int left = 0, right = arr.length;
-        while (left < right) {
-            int mid = (left + right) / 2;
-            if (arr[mid] <= value) {
-                left = mid + 1;
+    public int binarySearch(int[] arr, int target) {
+        int high = arr.length - 1;
+        int low = 0;
+        while (low < high) {
+            int mid = (int) Math.floor((double) (low + high) / 2);
+            if (arr[mid] <= target) {
+                low = mid + 1;
             } else {
-                right = mid;
+                high = mid;
             }
         }
-        return left;
-    } 
+        return arr[low] > target ? low : arr.length;
+    }
 }
