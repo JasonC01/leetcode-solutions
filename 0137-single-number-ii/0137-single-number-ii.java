@@ -1,14 +1,13 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i : nums) {
-            map.merge(i, 1, (a, b) -> a + 1);
-        }
-        for (int i : map.keySet()) {
-            if (map.get(i) == 1) {
-                return i;
+        int ans = 0;
+        for (int i = 0; i < 32; i++) {
+            int sum = 0;
+            for (int x : nums) {
+                sum += ((x >> i) & 1);
             }
+            ans |= (sum % 3) << i;
         }
-        return 0;
+        return ans;
     }
 }
