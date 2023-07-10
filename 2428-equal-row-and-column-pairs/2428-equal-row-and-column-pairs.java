@@ -1,22 +1,18 @@
 class Solution {
     public int equalPairs(int[][] grid) {
-        int[][] cols = new int[grid[0].length][grid.length];
+        HashSet<int[]> rows = new HashSet<>(Arrays.asList(grid));
+        int ans = 0;
         for (int i = 0; i < grid[0].length; i++) {
+            int[] col = new int[grid[0].length];
             for (int j = 0; j < grid.length; j++) {
-                cols[i][j] = grid[j][i];
+                col[j] = grid[j][i];
             }
-        }
-        for (int[] col : cols) {
-            System.out.println(Arrays.toString(col));
-        }
-        int count = 0;
-        for (int[] row : grid) {
-            for (int[] col : cols) {
+            for (int[] row : rows) {
                 if (Arrays.equals(row, col)) {
-                    count++;
+                    ans += 1;
                 }
             }
         }
-        return count;
+        return ans;
     }
 }
