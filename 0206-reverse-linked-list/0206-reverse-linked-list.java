@@ -20,4 +20,23 @@ class Solution {
         }
         return prev;
     }
+    public int pairSum(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode middle = slow.next;
+        slow.next = null;
+        reverseList(slow);
+        ListNode start = slow;
+        int ans = 0;
+        while (middle != null) {
+            ans = Math.max(ans, start.val + middle.val);
+            start = start.next;
+            middle = middle.next;
+        }
+        return ans;
+    }
 }
