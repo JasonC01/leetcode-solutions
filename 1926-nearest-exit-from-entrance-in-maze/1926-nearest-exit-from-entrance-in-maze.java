@@ -12,13 +12,10 @@ class Solution {
             int x = currPos[1];
             int y = currPos[0];
             if (y > maze.length - 1 || y < 0 || x > maze[0].length - 1 || x < 0 || maze[y][x] == '+' || visited[y][x]) {
-            } else {
-                System.out.println(Arrays.toString(currPos));
-                
+            } else {                
                 if ((y == maze.length - 1 || y == 0 || x == maze[0].length - 1 || x == 0) && (x != entrance[1] || y != entrance[0])) {
                     return step;
                 } 
-                
                 visited[y][x] = true;
                 q.add(new int[]{y, x + 1});
                 q.add(new int[]{y, x - 1});
