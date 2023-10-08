@@ -13,7 +13,7 @@ class Solution {
             return count > 0 ? res : Integer.MIN_VALUE;
         }
         if (memo[index1][index2] != Integer.MIN_VALUE) {
-            return count > 0 ? Math.max(res, res + memo[index1][index2]) : res + memo[index1][index2];
+            return count > 0 ? Math.max(res, res + memo[index1][index2]) : memo[index1][index2];
         }
         int ans = Integer.MIN_VALUE;
         ans = Math.max(helper(nums1, nums2, index1 + 1, index2, res, count), ans);
