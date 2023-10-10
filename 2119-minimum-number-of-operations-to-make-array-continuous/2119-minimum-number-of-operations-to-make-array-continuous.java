@@ -1,13 +1,8 @@
 class Solution {
     public int minOperations(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
-        HashSet<Integer> duplicates = new HashSet<>();
         for (int i : nums) {
-            if (set.contains(i)) {
-                duplicates.add(i);
-            } else {
-                set.add(i);
-            }
+            set.add(i);
         }
         int index = 0;
         int[] nums2 = new int[set.size()];
@@ -39,12 +34,6 @@ class Solution {
         int maxLen = maxHigh - maxLow;
         maxLen = Math.max(maxLen, high - low);
         int duplicate = nums.length - set.size();
-//        int inDuplicate = 0;
-//        for (int i = maxLow; i < maxHigh; i++) {
-//            if (duplicates.contains(nums2[i])) {
-//                inDuplicate++;
-//            }
-//        }
         return nums.length - maxLen;
     }
 }
