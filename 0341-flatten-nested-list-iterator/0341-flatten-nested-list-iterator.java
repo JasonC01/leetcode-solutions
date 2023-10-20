@@ -26,7 +26,7 @@ public class NestedIterator implements Iterator<Integer> {
             }
         }
 
-        @Override
+         @Override
         public boolean hasNext() {
             if (index > nestedList.size() - 1) {
                 return false;
@@ -34,11 +34,8 @@ public class NestedIterator implements Iterator<Integer> {
                 if (nestedList.get(index).isInteger()) {
                     return true;
                 } else {
-                    //is list
-                    if (nestedIterator == null) {
-                        nestedIterator = new NestedIterator(nestedList.get(index).getList());
-                        return this.hasNext();
-                    } else {
+                    if (nestedIterator != null) {
+                        
                         if (nestedIterator.hasNext()) {
                             return true;
                         } else {
@@ -46,6 +43,9 @@ public class NestedIterator implements Iterator<Integer> {
                             nestedIterator = null;
                             return this.hasNext();
                         }
+                    } else {
+                        nestedIterator = new NestedIterator(nestedList.get(index).getList());
+                        return this.hasNext();
                     }
                 }
             }
