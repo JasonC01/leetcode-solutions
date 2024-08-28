@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
+| [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Hash Table
 |  |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
+| [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 ## Simulation
 |  |
 | ------- |
@@ -67,8 +69,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
+| [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 ## Binary Tree
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
+## Union Find
+|  |
+| ------- |
+| [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 <!---LeetCode Topics End-->
