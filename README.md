@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/JasonC01/leetcode-solutions/tree/master/0278-first-bad-version) |
 | [0792-binary-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0792-binary-search) |
 ## Binary Search Tree
 |  |
@@ -149,4 +150,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/JasonC01/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/JasonC01/leetcode-solutions/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
