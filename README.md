@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0273-integer-to-english-words](https://github.com/JasonC01/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 ## Matrix
 |  |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0206-reverse-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
