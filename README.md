@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0273-integer-to-english-words](https://github.com/JasonC01/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Counting
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0145-binary-tree-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 ## Tree
 |  |
