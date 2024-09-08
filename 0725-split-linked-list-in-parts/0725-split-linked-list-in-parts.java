@@ -16,20 +16,25 @@ class Solution {
             length++;
             curr = curr.next;
         }
-        int remainder = length % k;
+        int rem = length % k;
+        int val = Math.floorDiv(length, k);
+        System.out.println(val);
+        System.out.println(rem);
         ListNode[] ans = new ListNode[k];
-        int n = length / k;
+        Arrays.fill(ans, null);
         curr = head;
-        int index = 0;
-        while (curr != null) {
-            ans[index++] = curr;
-            for (int i = 0; i < n - 1 + (remainder > 0 ? 1 : 0); i++) {
-                curr = curr.next;
+        for (int i = 0; i < k && curr != null; i++) {
+            ListNode res = curr;
+            for (int j = 0; j < val + (rem > 0 ? 1 : 0) - 1 && res != null; j++) {
+                res = res.next;
             }
-            remainder--;
-            ListNode temp = curr.next;
-            curr.next = null;
-            curr = temp;
+            rem--;
+            ListNode next = res == null ? null : res.next;
+            if (res != null) {
+                res.next = null;
+            }
+            ans[i] = curr;
+            curr = next;
         }
         return ans;
     }
