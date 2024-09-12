@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/JasonC01/leetcode-solutions/tree/master/2155-find-missing-observations) |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/JasonC01/leetcode-solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/JasonC01/leetcode-solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## String
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0273-integer-to-english-words](https://github.com/JasonC01/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/JasonC01/leetcode-solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Counting
@@ -57,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Math
 |  |
@@ -228,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/JasonC01/leetcode-solutions/tree/master/0067-add-binary) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/JasonC01/leetcode-solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Geometry
 |  |
