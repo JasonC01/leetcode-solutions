@@ -1,38 +1,30 @@
 class Solution {
     public int evalRPN(String[] tokens) {
-        Deque<Integer> s = new ArrayDeque<>();
-        for (String token : tokens) {
-            if (isNumber(token)) {
-                s.addLast(Integer.parseInt(token));
+        Stack<Integer> stack = new Stack<>();
+        for (String s : tokens) {
+            Optional<Integer> val = convertToInt(s);
+            if (val.isPresent()) {
+                stack.push(val.get());
             } else {
-                int second = s.pollLast();
-                int first = s.pollLast();
-                int res = 0;
-                if (token.equals("+")) {
-                    res = first + second;
-                } else if (token.equals("-")) {
-                    res = first - second;
-                } else if (token.equals("/")) {
-                    res = first/second;
-                } else {
-                    res = first * second;
+                int second = stack.pop();
+                int first = stack.pop();
+                switch (s) {
+                    case "+" -> stack.push(first + second);
+                    case "-" -> stack.push(first - second);
+                    case "*" -> stack.push(first * second);
+                    default -> stack.push(first / second);
                 }
-                s.addLast(res);
             }
         }
-        return s.pop();
+        return stack.pop();
     }
 
-    public boolean isNumber(String s) {
-        if (s.length() == 1 && s.charAt(0) == '-') {
-            return false;
+    public Optional<Integer> convertToInt(String s) {
+        try {
+            int res = Integer.parseInt(s);
+            return Optional.of(res);
+        } catch (Exception e) {
+            return Optional.empty();
         }
-        for (int i = s.charAt(0) == '-' ? 1 : 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (!Character.isDigit(c)) {
-                return false;
-            }
-        }
-        return true;
     }
 }
