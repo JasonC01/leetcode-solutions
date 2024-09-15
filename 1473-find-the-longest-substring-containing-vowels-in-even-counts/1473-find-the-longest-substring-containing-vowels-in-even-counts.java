@@ -17,9 +17,7 @@ class Solution {
             } else {
                 if (map.containsKey(currentMask)) {
                     ans = Math.max(ans, currentIndex - map.get(currentMask));
-                } else {
-                    map.put(currentMask, currentIndex);
-                }
+                } 
             }
             currentIndex++;
         }
