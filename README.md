@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/JasonC01/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
+| [0238-product-of-array-except-self](https://github.com/JasonC01/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/JasonC01/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1435-xor-queries-of-a-subarray) |
