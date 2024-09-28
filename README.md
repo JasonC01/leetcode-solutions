@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/JasonC01/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0792-binary-search) |
+| [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/JasonC01/leetcode-solutions/tree/master/0725-split-linked-list-in-parts) |
+| [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/JasonC01/leetcode-solutions/tree/master/2411-spiral-matrix-iv) |
@@ -253,10 +255,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/JasonC01/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0729-my-calendar-i](https://github.com/JasonC01/leetcode-solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
+| [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 ## Queue
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/JasonC01/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 ## Interactive
 |  |
 | ------- |
