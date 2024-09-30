@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
+| [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/JasonC01/leetcode-solutions/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
@@ -261,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/JasonC01/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/JasonC01/leetcode-solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
@@ -341,4 +344,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0729-my-calendar-i](https://github.com/JasonC01/leetcode-solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
