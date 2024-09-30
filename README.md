@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1435-xor-queries-of-a-subarray) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/JasonC01/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/JasonC01/leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Tree
 |  |
 | ------- |
@@ -267,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0729-my-calendar-i](https://github.com/JasonC01/leetcode-solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Queue
 |  |
 | ------- |
