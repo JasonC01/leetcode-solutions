@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
+| [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/JasonC01/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
+| [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/JasonC01/leetcode-solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/JasonC01/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
@@ -335,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/JasonC01/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 ## Number Theory
 |  |
 | ------- |
