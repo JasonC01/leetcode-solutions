@@ -9,32 +9,28 @@
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        HashSet<TreeNode> s = new HashSet<>(findPath(root, p, new ArrayList<>()));
-        TreeNode ans = null;
-        for (TreeNode t : findPath(root, q, new ArrayList<>())) {
-            if (s.contains(t)) {
-                ans = t;
-            }
+        if (root.val == p.val || root.val == q.val) {
+            return root;
         }
-        return ans;
+        boolean isPLeft = search(root.left, p);
+        boolean isQLeft = search(root.left, q);
+        if (isPLeft && isQLeft) {
+            return lowestCommonAncestor(root.left, p, q);
+        }
+        if (!isPLeft && !isQLeft) {
+            return lowestCommonAncestor(root.right, p, q);
+        }
+        return root;
     }
 
-    public List<TreeNode> findPath(TreeNode curr, TreeNode target, List<TreeNode> path) {
+    public boolean search(TreeNode curr, TreeNode target) {
         if (curr == null) {
-            return null;
+            return false;
         }
-        if (curr.equals(target)) {
-            List<TreeNode> ans = new ArrayList<>(path);
-            ans.add(curr);
-            return ans;
+        if (curr.val == target.val) {
+            return true;
         }
-        List<TreeNode> ans = null;
-        path.add(curr);
-        List<TreeNode> left = findPath(curr.left, target, path);
-        path.remove(curr);
-        path.add(curr);
-        List<TreeNode> right = findPath(curr.right, target, path);
-        path.remove(curr);
-        return left == null ? right : left;
+        return search(curr.left, target) || search(curr.right, target);
     }
+
 }
