@@ -224,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -241,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0733-flood-fill](https://github.com/JasonC01/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/JasonC01/leetcode-solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0988-flip-equivalent-binary-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2677-cousins-in-binary-tree-ii) |
