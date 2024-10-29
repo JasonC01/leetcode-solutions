@@ -1,8 +1,6 @@
 class Solution {
-    boolean[][] visited;
     int[][] memo;
     public int maxMoves(int[][] grid) {
-        visited = new boolean[grid.length][grid[0].length];
         memo = new int[grid.length][grid[0].length];
         for (int[] i : memo) {
             Arrays.fill(i, -1);
