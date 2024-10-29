@@ -1,25 +1,26 @@
 class Solution {
-    HashSet<String> set;
     HashMap<String, Boolean> memo = new HashMap<>();
     public boolean wordBreak(String s, List<String> wordDict) {
-        set = new HashSet<>(wordDict);
-        return helper(s);
+        return helper(s, 1, wordDict);
     }
-
-    public boolean helper(String s) {
-        if (s.isEmpty()) {
+    
+    public boolean helper(String sb, int index, List<String> wordDict) {
+        if (sb.isEmpty()) {
             return true;
         }
-        if (memo.containsKey(s)) {
-            return memo.get(s);
+        if (index > sb.length()) {
+            return false;
         }
-        boolean ans = false;
-        for (int i = 0; i <= s.length(); i++) {
-            if (set.contains(s.substring(0, i))) {
-                ans |= helper(s.substring(i));
-            }
+        if (memo.containsKey(sb)) {
+            return memo.get(sb);
         }
-        memo.put(s, ans);
-        return ans;
+        if (wordDict.contains(sb.substring(0, index))) {
+            boolean res = helper(sb.substring(index), 1, wordDict) || helper(sb, index + 1, wordDict);
+            memo.put(sb, res);
+            return res;
+        }
+        boolean res = helper(sb, index + 1, wordDict);
+        memo.put(sb, res);
+        return res;
     }
 }
