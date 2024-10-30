@@ -18,8 +18,7 @@ class Solution {
                 }
             }
         }
-        System.out.println(Arrays.toString(dpStart));
-        System.out.println(Arrays.toString(dpEnd));
+    
         int ans = 0;
         for (int i = 0; i < nums.length; i++) {
             if (dpStart[i] == 1 || dpEnd[i] == 1) {
