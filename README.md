@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/JasonC01/leetcode-solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1023-time-based-key-value-store](https://github.com/JasonC01/leetcode-solutions/tree/master/1023-time-based-key-value-store) |
@@ -517,4 +518,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
