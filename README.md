@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0166-fraction-to-recurring-decimal](https://github.com/JasonC01/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/JasonC01/leetcode-solutions/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/JasonC01/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
+| [0166-fraction-to-recurring-decimal](https://github.com/JasonC01/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0241-different-ways-to-add-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
@@ -157,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/JasonC01/leetcode-solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/JasonC01/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/JasonC01/leetcode-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/JasonC01/leetcode-solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0241-different-ways-to-add-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/JasonC01/leetcode-solutions/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
