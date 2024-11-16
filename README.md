@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/JasonC01/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
