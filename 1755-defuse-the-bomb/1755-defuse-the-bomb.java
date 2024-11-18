@@ -1,24 +1,18 @@
 class Solution {
     public int[] decrypt(int[] code, int k) {
         int[] ans = new int[code.length];
+        if (k == 0) {
+            return ans;
+        }
+        int low = k < 0 ? k - 1 : 0;
+        int high = Math.max(k + 1, 0);
+        int currentSum = 0;
+        for (int i = low + 1; i < high; i++) {
+            currentSum += code[(code.length + i) % code.length];
+        }
         for (int i = 0; i < code.length; i++) {
-            if (k == 0) {
-                ans[i] = 0;
-            } else if (k > 0) {
-                int sum = 0;
-                int curr = i + 1;
-                for (int j = 0; j < k; j++) {
-                    sum += code[(curr + j) % code.length];
-                }
-                ans[i] = sum;
-            } else {
-                int sum = 0;
-                int curr = i - 1 < 0 ? code.length - 1 : i - 1;
-                for (int j = 0; j < Math.abs(k); j++) {
-                    sum += code[(curr - j < 0 ? code.length + (curr - j) : curr - j)];
-                }
-                ans[i] = sum;
-            }
+            ans[i] = currentSum;
+            currentSum = currentSum - code[(code.length + ++low) % code.length] + code[(code.length + high++) % code.length];
         }
         return ans;
     }
