@@ -1,48 +1,22 @@
 class Solution {
-    public class DSU {
-        List<Integer> parent = new ArrayList<>();
-        List<Integer> rank = new ArrayList<>();
-        public DSU(int n) {
-            for (int i = 0; i < n; i++) {
-                parent.add(i);
-                rank.add(1);
+    public int findCircleNum(int[][] isConnected) {
+        int ans = 0;
+        boolean[] visited = new boolean[isConnected.length];
+        for (int i = 0; i < isConnected.length; i++) {
+            if (!visited[i]) {
+                ans++;
+                traverse(isConnected, i, visited);
             }
         }
-
-        public int find(int a) {
-            return parent.get(a) == a ? a : find(parent.get(a));
-        }
-
-        public boolean union(int x, int y) {
-            int xset = find(x);
-            int yset = find(y);
-            if (xset != yset) {
-                if (rank.get(xset) < rank.get(yset)) {
-                    parent.set(xset, yset);
-                } else {
-                    parent.set(yset, xset);
-                }
-                rank.set(xset, rank.get(xset) + rank.get(yset));
-                return true;
-            }
-            return false;
-        }
+        return ans;
     }
 
-
-    public int findCircleNum(int[][] isConnected) {
-        DSU dsu = new DSU(isConnected.length);
-        for (int i = 0; i < isConnected.length; i++) {
-            for (int j = 0; j < isConnected[0].length; j++) {
-                if (isConnected[i][j] == 1) {
-                    dsu.union(i, j);
-                }
+    public void traverse(int[][] map, int curr, boolean[] visited) {
+        visited[curr] = true;
+        for (int i = 0; i < map.length; i++) {
+            if (!visited[i] && map[curr][i] == 1) {
+                traverse(map, i, visited);
             }
         }
-        HashSet<Integer> parents = new HashSet<>();
-        for (int i = 0; i < isConnected.length; i++) {
-            parents.add(dsu.find(i));
-        }
-        return parents.size();
     }
 }
