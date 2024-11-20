@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1002-maximum-width-ramp](https://github.com/JasonC01/leetcode-solutions/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/JasonC01/leetcode-solutions/tree/master/1036-rotting-oranges) |
+| [1137-height-checker](https://github.com/JasonC01/leetcode-solutions/tree/master/1137-height-checker) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/JasonC01/leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -417,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1137-height-checker](https://github.com/JasonC01/leetcode-solutions/tree/master/1137-height-checker) |
 | [1256-rank-transform-of-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1256-rank-transform-of-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/JasonC01/leetcode-solutions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/JasonC01/leetcode-solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -605,4 +607,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/JasonC01/leetcode-solutions/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
