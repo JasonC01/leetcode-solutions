@@ -1,6 +1,9 @@
 class Solution {
     int[][] moves = new int[][]{new int[]{1, 0}, new int[]{-1, 0}, new int[]{0, 1}, new int[]{0, -1}};
     public int minimumTime(int[][] grid) {
+        if (grid[0][1] > 1 && grid[1][0] > 1) {
+            return -1;
+        }
         int[][] dist = new int[grid.length][grid[0].length];
         for (int[] d : dist) {
             Arrays.fill(d, Integer.MAX_VALUE);
@@ -12,7 +15,6 @@ class Solution {
         while (!pq.isEmpty()) {
             int[] curr = pq.poll();
             visited[curr[0]][curr[1]] = true;
-//            dist[curr[0]][curr[1]] = curr[2];
             if (curr[0] != grid.length - 1 || curr[1] != grid[0].length - 1) {
                 for (int[] move : moves) {
                     int nY = curr[0] + move[0];
@@ -24,37 +26,13 @@ class Solution {
                         dist[nY][nX] = curr[2] + 1;
                         pq.add(new int[]{nY, nX, curr[2] + 1});
                     } else {
-                        if (curr[0] != 0 || curr[1] != 0) {
-                            int diff = grid[nY][nX] - curr[2];
-                            if (diff % 2 == 0) {
-                                dist[nY][nX] = grid[nY][nX] + 1;
-                                pq.add(new int[]{nY, nX, grid[nY][nX] + 1});
-                            } else {
-                                dist[nY][nX] = grid[nY][nX];
-                                pq.add(new int[]{nY, nX, grid[nY][nX]});
-                            }
+                        int diff = grid[nY][nX] - curr[2];
+                        if (diff % 2 == 0) {
+                            dist[nY][nX] = grid[nY][nX] + 1;
+                            pq.add(new int[]{nY, nX, grid[nY][nX] + 1});
                         } else {
-                            boolean possible = false;
-                            for (int[] m : moves) {
-                                int a = curr[0] + m[0];
-                                int b = curr[1] + m[1];
-                                if (a < 0 || b < 0 || b > grid.length - 1 || a > grid[0].length - 1) {
-                                    continue;
-                                }
-                                if (grid[a][b] <= curr[2] + 1) {
-                                    possible = true;
-                                }
-                            }
-                            if (possible) {
-                                int diff = grid[nY][nX] - curr[2];
-                                if (diff % 2 == 0) {
-                                    dist[nY][nX] = grid[nY][nX] + 1;
-                                    pq.add(new int[]{nY, nX, grid[nY][nX] + 1});
-                                } else {
-                                    dist[nY][nX] = grid[nY][nX];
-                                    pq.add(new int[]{nY, nX, grid[nY][nX]});
-                                }
-                            }
+                            dist[nY][nX] = grid[nY][nX];
+                            pq.add(new int[]{nY, nX, grid[nY][nX]});
                         }
                     }
                 }
