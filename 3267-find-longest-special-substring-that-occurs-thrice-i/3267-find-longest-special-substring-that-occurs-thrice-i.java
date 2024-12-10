@@ -24,7 +24,6 @@ class Solution {
                 high = mid - 1;
             }
         }
-        System.out.println(low);
         return low;
     }
 
