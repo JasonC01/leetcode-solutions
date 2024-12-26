@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0688-knight-probability-in-chessboard](https://github.com/JasonC01/leetcode-solutions/tree/master/0688-knight-probability-in-chessboard) |
@@ -719,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0039-combination-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/JasonC01/leetcode-solutions/tree/master/0046-permutations) |
+| [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [1331-path-with-maximum-gold](https://github.com/JasonC01/leetcode-solutions/tree/master/1331-path-with-maximum-gold) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
