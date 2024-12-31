@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [1002-maximum-width-ramp](https://github.com/JasonC01/leetcode-solutions/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1025-minimum-cost-for-tickets](https://github.com/JasonC01/leetcode-solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/JasonC01/leetcode-solutions/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/JasonC01/leetcode-solutions/tree/master/1063-best-sightseeing-pair) |
 | [1137-height-checker](https://github.com/JasonC01/leetcode-solutions/tree/master/1137-height-checker) |
@@ -309,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0688-knight-probability-in-chessboard](https://github.com/JasonC01/leetcode-solutions/tree/master/0688-knight-probability-in-chessboard) |
+| [1025-minimum-cost-for-tickets](https://github.com/JasonC01/leetcode-solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/JasonC01/leetcode-solutions/tree/master/1063-best-sightseeing-pair) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/JasonC01/leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
