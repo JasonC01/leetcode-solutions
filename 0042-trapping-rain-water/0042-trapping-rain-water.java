@@ -1,61 +1,17 @@
 class Solution {
     public int trap(int[] height) {
-        if (height.length == 1) {
-            return 0;
-        }
-        int index = 0;
-        int ans = 0;
-        Stack<Integer> stack = new Stack<>();
-        Stack<Integer> widthStack = new Stack<>();
-        while (index < height.length) {
-            // System.out.println(stack);
-            if (stack.isEmpty() || stack.peek() > height[index]) {
-                stack.push(height[index++]);
-                widthStack.push(1);
-            } else {
-//                int popCount = 0;
-                int minusValue = 0;
-                int total = 0;
-                while (stack.size() > 1 && stack.peek() < height[index]) {
-                    int sVal = stack.pop();
-                    int wVal = widthStack.pop();
-                    total += wVal;
-                    minusValue += sVal * wVal;
-                }
-                int low = stack.pop();
-                int lw = widthStack.pop();
-                ans += (total * Math.min(height[index], low)) - minusValue;
-                if (low > height[index]) {
-                    stack.push(low);
-                    widthStack.push(lw);
-                    stack.push(height[index]);
-                    widthStack.push(total + 1);
-//                    for (int i = 0; i <= popCount; i++) {
-//                        stack.push(height[index]);
-//                    }
-                } else {
-                    if (stack.isEmpty()) {
-                        stack.push(height[index]);
-                        widthStack.push(1);
-                    } else {
-                        stack.push(height[index]);
-                        widthStack.push(total + lw + 1);
-                    }
-                    
-//                    for (int i = 0; i <= popCount + 1; i++) {
-//                        stack.push(height[index]);
-//                    }
-                }
-                index++;
-                // System.out.println(ans);
-            }
-        }
-        // System.out.println(stack);
-        return ans;
+    int[] pref = new int[height.length];
+    int[] suf = new int[height.length];
+    pref[0] = height[0];
+    suf[height.length - 1] = height[height.length - 1];
+    for (int i = 1; i < height.length; i++) {
+        pref[i] = Math.max(pref[i - 1], height[i]);
+        suf[height.length - 1 - i] = Math.max(suf[height.length - i], height[height.length - 1 - i]);
     }
+    int ans = 0;
+    for (int i = 0; i < height.length; i++) {
+        ans += Math.max(0, Math.min(pref[i], suf[i]) - height[i]);
+    }
+    return ans;
 }
-//           0 
-// 0         0
-// 0     0   0
-// 0 0   0 0 0
-// 0 0 _ 0 0 0
+}
