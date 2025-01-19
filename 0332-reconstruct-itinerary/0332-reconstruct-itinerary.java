@@ -1,42 +1,38 @@
 class Solution {
-    HashMap<String, List<String>> map;
     public List<String> findItinerary(List<List<String>> tickets) {
-        map = new HashMap<>();
+        HashMap<String, List<String>> adjList = new HashMap<>();
+        HashMap<String, Integer> inDegree = new HashMap<>();
+        HashMap<String, Integer> outDegree = new HashMap<>();
         for (List<String> ticket : tickets) {
-            String from = ticket.get(0);
-            String to = ticket.get(1);
-            if (!map.containsKey(from)) {
-                map.put(from, new ArrayList<>());
+            if (!adjList.containsKey(ticket.get(0))) {
+                adjList.put(ticket.get(0), new ArrayList<>());
             }
-            map.get(from).add(to);
+            inDegree.merge(ticket.get(1),1, (a, b) -> a + 1);
+            outDegree.merge(ticket.get(0), 1, (a, b) -> a + 1);
+            adjList.get(ticket.get(0)).add(ticket.get(1));
         }
-        for (List<String> value : map.values()) {
-            value.sort(Comparator.comparing(x -> x));
+        Stack<String> q = new Stack<>();
+        q.add("JFK");
+        for (List<String> s : adjList.values()) {
+            s.sort(Comparator.comparing(x -> x));
         }
-        List<String> res = new ArrayList<>();
-        return dfs("JFK", res, tickets.size() + 1);
-    }
-
-     public List<String> dfs(String currentAirport, List<String> res, int resSize) {
-        res.add(currentAirport);
-        if (res.size() == resSize) {
-            return new ArrayList<>(res);
-        }
-        if (!map.containsKey(currentAirport)) {
-            return new ArrayList<>();
-        }
-        for (int i = 0; i < map.get(currentAirport).size(); i++) {
-            String adj = map.get(currentAirport).get(i);
-            if (adj.equals("")) {
-                continue;
-            }
-            map.get(currentAirport).set(i, "");
-            List<String> ans = dfs(adj, new ArrayList<>(res), resSize);
-            map.get(currentAirport).set(i, adj);
-            if (ans.size() == resSize) {
-                return ans;
+        Stack<String> res = new Stack<>();
+        
+        // System.out.println(adjList);
+        while (!q.isEmpty()) {
+            // System.out.println(q);
+            String curr = q.peek();
+            if (adjList.getOrDefault(curr, new ArrayList<>()).isEmpty()) {
+                // System.out.println(curr);
+                res.add(q.pop());
+            } else {
+                q.add(adjList.get(curr).remove(0));
             }
         }
-        return new ArrayList<>();
+        List<String> ans = new ArrayList<>();
+        while (!res.isEmpty()) {
+            ans.add(res.pop());
+        }
+        return ans;
     }
 }
