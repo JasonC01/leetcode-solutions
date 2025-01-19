@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
+| [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/JasonC01/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/JasonC01/leetcode-solutions/tree/master/0787-sliding-puzzle) |
@@ -484,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
+| [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/JasonC01/leetcode-solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JasonC01/leetcode-solutions/tree/master/0547-number-of-provinces) |
@@ -696,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
