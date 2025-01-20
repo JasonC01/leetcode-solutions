@@ -1,36 +1,53 @@
 class Solution {
     public int minCostConnectPoints(int[][] points) {
-        int[][] adjList = new int[points.length][points.length];
+        HashSet<Integer> visited = new HashSet<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparing(x -> x[2]));
         for (int i = 0; i < points.length; i++) {
-            for (int j = 0; j < points.length; j++) {
-                adjList[i][j] = manhattanDistance(points[i], points[j]);
+            for (int j = i + 1; j < points.length; j++) {
+                pq.add(new int[]{i, j, Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1])});
             }
-        }
-        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparing(x -> adjList[x[0]][x[1]]));
-        HashSet<Integer> added = new HashSet<>();
-        for (int i = 0; i < points.length; i++) {
-            pq.add(new int[]{0, i});
         }
         int ans = 0;
-        while (!pq.isEmpty()) {
+        int count = 0;
+        DSU dsu = new DSU(points.length);
+        while (!pq.isEmpty() && count < points.length - 1) {
             int[] curr = pq.poll();
-            if (added.contains(curr[0]) && added.contains(curr[1])) {
-                continue;
+            // System.out.println(Arrays.toString(curr));
+            // System.out.println(dsu.parentMap);
+            if (dsu.join(curr[0], curr[1])) {
+                count++;
+                // System.out.println("added");
+                ans += curr[2];
+                visited.add(curr[0]);
+                visited.add(curr[1]);
             }
-            for (int i = 0; i < points.length; i++) {
-                if (!added.contains(i)) {
-                    pq.add(new int[]{curr[1], i});
-                }
-            }
-            added.add(curr[0]);
-            added.add(curr[1]);
-            ans += adjList[curr[0]][curr[1]];
         }
+        // System.out.println(count);
         return ans;
     }
+    
+    public class DSU {
+        int n;
+        HashMap<Integer, Integer> parentMap = new HashMap<>();
+        public DSU(int n) {
+            this.n = n;
+        }
 
+       public int find(int i) {
+            return !parentMap.containsKey(i) ? i : parentMap.get(i).equals(i) ? i : find(parentMap.get(i));
+        }
 
-    public int manhattanDistance(int[] p1, int[] p2) {
-        return Math.abs(p1[0] - p2[0]) + Math.abs(p1[1] - p2[1]);
+        public boolean join(int x, int y) {
+            int parentX = find(x);
+            int parentY = find(y);
+            if (parentX != parentY) {
+                parentMap.put(parentX, parentY);
+                return true;
+            }
+            return false;
+        }
+
     }
 }
+
+
