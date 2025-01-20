@@ -1,52 +1,42 @@
 class Solution {
     public int removeStones(int[][] stones) {
-        HashMap<int[], List<int[]>> adj = new HashMap<>();
+        HashMap<Integer, List<int[]>> rowAdj = new HashMap<>();
+        HashMap<Integer, List<int[]>> colAdj = new HashMap<>();
         for (int[] stone : stones) {
-            adj.put(stone, new ArrayList<>());
-        }
-        for (int[] s1 : stones) {
-            for (int[] s2 : stones) {
-                if (Arrays.equals(s1, s2)) {
-                    continue;
-                }
-                if (s1[0] == s2[0] || s1[1] == s2[1]) {
-                    adj.get(s1).add(s2);
-                }
+            int row = stone[0];
+            int col = stone[1];
+            if (!rowAdj.containsKey(row)) {
+                rowAdj.put(row, new ArrayList<>());
             }
-        }
-        int res = 0;
-        HashSet<int[]> visited = new HashSet<>();
-        for (int[] stone : stones) {
-            if (!dfs(stone, adj, visited, new ArrayList<>()).isEmpty()) {
-                res++;
+            if (!colAdj.containsKey(col)) {
+                colAdj.put(col, new ArrayList<>());
             }
+            rowAdj.get(row).add(stone);
+            colAdj.get(col).add(stone);
         }
-        return stones.length - res;
-    }
-
-    public List<int[]> dfs(int[] stone, HashMap<int[], List<int[]>> adj, HashSet<int[]> visited, List<int[]> actuallyVisited) {
-//        System.out.println(actuallyVisited);
-        if (adj.get(stone).isEmpty()) {
-            List<int[]> res = new ArrayList<>();
-            res.add(stone);
-            return res;
-        }
-        if (visited.contains(stone)) {
-            return new ArrayList<>();
-        }
-        List<int[]> res = new ArrayList<>();
-        visited.add(stone);
-        List<int[]> newActVisited = new ArrayList<>(actuallyVisited);
-        newActVisited.add(stone);
-        for (int[] neighbour : adj.get(stone)) {
-            if (!visited.contains(neighbour)) {
-                List<int[]> arr = new ArrayList<>(newActVisited);
-                arr.addAll(dfs(neighbour, adj, visited, newActVisited));
-                if (arr.size() > res.size()) {
-                    res = arr;
+        HashSet<Integer> rowVisited = new HashSet<>();
+        HashSet<Integer> colVisited = new HashSet<>();
+        int numberOfIslands = 0;
+        for (int i : rowAdj.keySet()) {
+            if (!rowVisited.contains(i)) {
+                rowVisited.add(i);
+                numberOfIslands++;
+                Queue<int[]> q = new ArrayDeque<>(rowAdj.get(i));
+                while (!q.isEmpty()) {
+                    int[] currStone = q.poll();
+                    int row = currStone[0];
+                    int col = currStone[1];
+                    if (!rowVisited.contains(row)) {
+                        rowVisited.add(row);
+                        q.addAll(rowAdj.get(row));
+                    }
+                    if (!colVisited.contains(col)) {
+                        colVisited.add(col);
+                        q.addAll(colAdj.get(col));
+                    }
                 }
             }
         }
-        return res;
+        return stones.length - numberOfIslands;
     }
 }
