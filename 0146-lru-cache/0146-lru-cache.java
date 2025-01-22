@@ -1,124 +1,108 @@
-class Node {
-        Node prev = null;
-        Node next = null;
-        int val;
+class DLNode {
 
-      public Node(int val) {
-          this.val = val;
-      }
+        int key;
+        int value;
+        DLNode prev = null;
+        DLNode next = null;
 
-      public Node(Node prev, Node next, int val) {
-          this.prev = prev;
-          this.next = next;
-          this.val = val;
-      }
-  }
-
-  class dlNodes {
-        Node first = null;
-        Node last = null;
-
-        public Node removeFirst() {
-            Node f = first;
-            if (first.prev == null) {
-                first = null;
-                last = null;
-            } else {
-                first = first.prev;
-                first.next = null;
-            }
-            return f;
+        public DLNode(int key, int value) {
+            this.key = key;
+            this.value = value;
         }
-
-        public void add(Node n) {
-            if (first == null && last == null) {
-                first = n;
-            } else {
-                last.prev = n;
-                n.next = last;
-            }
-            last = n;
-        }
-
-        public void deleteAndAddLast(Node n) {
-            if (n.next != null && n.prev != null) {
-                n.prev.next = n.next;
-                n.next.prev = n.prev;
-                n.next = last;
-                last.prev = n;
-                last = n;
-                last.prev = null;
-            } else {
-                if (n.prev != null) {
-                    first = n.prev;
-                    first.next = null;
-                    n.next = last;
-                    last.prev = n;
-                    last = n;
-                    last.prev = null;
-                }
-            }
-        }
-        
-        @Override
-      public String toString() {
-            StringBuilder sb = new StringBuilder();
-            Node curr = first;
-            while (curr != null) {
-                sb.append(curr.val);
-                curr = curr.prev;
-            }
-            return sb.toString();
-        }
-  }
-
-
-
+    }
 
     class LRUCache {
 
-        int capacity;
-        int storeSize = 0;
-        dlNodes store;
-        HashMap<Integer, Integer> cache;
-        HashMap<Integer, Node> map;
+        int capacityLimit;
+        int currentCapacity;
+        HashMap<Integer, DLNode> nodesMap = new HashMap<>();
+        DLNode head = null;
+        DLNode tail = null;
 
+        // updating cases
+        // case 1. tobe updated is head: Do nothing
+        // case 2. tobe updated is tail: update tail to next and update head.next to be tobe updated
+        // case 3. tobe updated is tail and is equal to head: do nothing
+        // 2 operations needed: move to front, delete from list.
         public LRUCache(int capacity) {
-            this.capacity = capacity;
-            storeSize = 0;
-            store = new dlNodes();
-            cache = new HashMap<>();
-            map = new HashMap<>();
+            capacityLimit = capacity;
         }
 
         public int get(int key) {
-            System.out.println("get");
-            // System.out.println(store);
-            int val = cache.getOrDefault(key, -1);
-            if (val != -1) {
-                store.deleteAndAddLast(map.get(key));
+            if (!nodesMap.containsKey(key)) {
+                return -1;
             }
-            return val;
+            moveToFront(key);
+            return head.value;
         }
 
         public void put(int key, int value) {
-            System.out.println("put");
-            // System.out.println(store);
-            if (cache.containsKey(key)) {
-                cache.put(key, value);
-                store.deleteAndAddLast(map.get(key));
+            if (nodesMap.containsKey(key)) {
+                nodesMap.get(key).value = value;
+                moveToFront(key);
             } else {
-                if (storeSize == capacity) {
-                    Node n = store.removeFirst();
-                    cache.remove(n.val);
-                    map.remove(n.val);
-                    storeSize--;
+                if (capacityLimit == currentCapacity) {
+                    nodesMap.remove(tail.key);
+                    deleteFromBack();
+                } else {
+                    currentCapacity++;
                 }
-                Node newNode = new Node(key);
-                map.put(key, newNode);
-                store.add(newNode);
-                cache.put(key, value);
-                storeSize++;
+                DLNode newNode = new DLNode(key, value);
+                if (head == null) {
+                    head = newNode;
+                    tail = newNode;
+                } else {
+                    head.next = newNode;
+                    newNode.prev = head;
+                    head = newNode;
+                }
+                nodesMap.put(key, newNode);
+            }
+        }
+
+        public void moveToFront(int key) {
+            DLNode curr = nodesMap.get(key);
+            if (head.key == key) {
+                return;
+            }
+            if (tail.key == key) {
+                deleteFromBack();
+            } else {
+                DLNode prev = curr.prev;
+                DLNode next = curr.next;
+                if (prev != null) {
+                    prev.next = next;
+                }
+                if (next != null) {
+                    next.prev = prev;
+                }
+            }
+            if (head == null) {
+                head = curr;
+                tail = curr;
+                return;
+            }
+            head.next = curr;
+            curr.prev = head;
+            head = curr;
+        }
+
+        public void deleteFromBack() {
+//            DLNode curr = nodesMap.remove(tail.key);
+            if (tail.key == head.key) {
+                head = null;
+                tail = null;
+            } else {
+                DLNode next = tail.next;
+                next.prev = null;
+                tail = next;
             }
         }
     }
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
