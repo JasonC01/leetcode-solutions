@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -168,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -283,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1364-tuple-with-same-product](https://github.com/JasonC01/leetcode-solutions/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/JasonC01/leetcode-solutions/tree/master/1396-count-servers-that-communicate) |
@@ -672,6 +675,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/JasonC01/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
@@ -801,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/JasonC01/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/JasonC01/leetcode-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -864,6 +869,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
+| [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/JasonC01/leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0780-max-chunks-to-make-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/0780-max-chunks-to-make-sorted) |
