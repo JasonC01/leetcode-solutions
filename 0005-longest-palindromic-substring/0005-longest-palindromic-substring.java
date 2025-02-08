@@ -1,34 +1,31 @@
 class Solution {
     public String longestPalindrome(String s) {
-        int maxLeft = 0;
-        int maxRight = 0;
+        boolean[][] memo = new boolean[s.length()][s.length()];
+        for (boolean[] i : memo) {
+            Arrays.fill(i, false);
+        }
+        int sAns = 0;
+        int eAns = 0;
         for (int i = 0; i < s.length(); i++) {
-            int left = i - 1; 
-            int right = i + 1;
-            while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-                left--;
-                right++;
-            }
-            if (right - left - 1 > maxRight - maxLeft - 1) {
-                maxLeft = left;
-                maxRight = right;
+            memo[i][i] = true;
+        }
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == s.charAt(i - 1)) {
+                sAns = i - 1;
+                eAns = i;
+                memo[i - 1][i] = true;
             }
         }
-        for (int i = 0; i < s.length() - 1; i++) {
-            if (s.charAt(i) != s.charAt(i + 1)) {
-                continue;
-            }
-            int left = i - 1;
-            int right = i + 2;
-            while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-                left--;
-                right++;
-            }
-            if (right - left - 1 > maxRight - maxLeft - 1) {
-                maxLeft = left;
-                maxRight = right;
+        for (int length = 3; length <= s.length(); length++) {
+            for (int start = 0; start <= s.length() - length; start++) {
+                int end = start + length - 1;
+                if (memo[start + 1][end - 1] && s.charAt(start) == s.charAt(end)) {
+                    memo[start][end] = true;
+                    sAns = start;
+                    eAns = end;
+                }
             }
         }
-        return s.substring(maxLeft + 1, maxRight);
+        return s.substring(sAns, eAns + 1);
     }
 }
