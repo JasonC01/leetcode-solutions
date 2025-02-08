@@ -1,33 +1,34 @@
 class Solution {
     public String longestPalindrome(String s) {
-        String[][] memo = new String[s.length()][s.length()];
-        if (s.length() == 1) {
-            return s;
-        }
-        int currLength = 1;
-        int start = 0;
-        int end = 0;
-        while (currLength <= s.length()) {
-            for (int i = 0; i <= s.length() - currLength; i++) {
-                if (isPalindrome(s, memo, i, currLength)) {
-                    start = i;
-                    end = i + currLength;
-                    memo[i][i + currLength - 1] = "o";
-
-                }
+        int maxLeft = 0;
+        int maxRight = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int left = i - 1; 
+            int right = i + 1;
+            while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+                left--;
+                right++;
             }
-            currLength++;
+            if (right - left - 1 > maxRight - maxLeft - 1) {
+                maxLeft = left;
+                maxRight = right;
+            }
         }
-        return s.substring(start, end);
-    }
-    public boolean isPalindrome(String word, String[][] memo, int start, int length) {
-        if (length == 1) {
-            return true;
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (s.charAt(i) != s.charAt(i + 1)) {
+                continue;
+            }
+            int left = i - 1;
+            int right = i + 2;
+            while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+                left--;
+                right++;
+            }
+            if (right - left - 1 > maxRight - maxLeft - 1) {
+                maxLeft = left;
+                maxRight = right;
+            }
         }
-        if (length == 2 || memo[start + 1][start + length - 2] != null) {
-            return word.charAt(start) == word.charAt(start + length - 1);
-        } else {
-            return false;
-        }
+        return s.substring(maxLeft + 1, maxRight);
     }
 }
