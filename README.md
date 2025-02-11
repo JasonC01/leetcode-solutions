@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
+| [0879-maximize-distance-to-closest-person](https://github.com/JasonC01/leetcode-solutions/tree/master/0879-maximize-distance-to-closest-person) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/JasonC01/leetcode-solutions/tree/master/0907-koko-eating-bananas) |
