@@ -1,108 +1,92 @@
 class DLNode {
-
         int key;
-        int value;
-        DLNode prev = null;
+        int val;
         DLNode next = null;
+        DLNode prev = null;
 
-        public DLNode(int key, int value) {
+        public DLNode(int key, int val) {
             this.key = key;
-            this.value = value;
+            this.val = val;
         }
+
+        
     }
 
     class LRUCache {
 
-        int capacityLimit;
-        int currentCapacity;
+        int maximumCapacity;
+        int currentCapacity = 0;
+
         HashMap<Integer, DLNode> nodesMap = new HashMap<>();
         DLNode head = null;
         DLNode tail = null;
 
-        // updating cases
-        // case 1. tobe updated is head: Do nothing
-        // case 2. tobe updated is tail: update tail to next and update head.next to be tobe updated
-        // case 3. tobe updated is tail and is equal to head: do nothing
-        // 2 operations needed: move to front, delete from list.
         public LRUCache(int capacity) {
-            capacityLimit = capacity;
+            this.maximumCapacity = capacity;
         }
 
         public int get(int key) {
-            if (!nodesMap.containsKey(key)) {
-                return -1;
-            }
-            moveToFront(key);
-            return head.value;
+             if (!nodesMap.containsKey(key)) {
+                 return -1;
+             } else {
+                 DLNode currentNode = nodesMap.get(key);
+                 deleteNode(currentNode);
+                 insertFront(currentNode);
+                 return currentNode.val;
+             }
         }
 
         public void put(int key, int value) {
             if (nodesMap.containsKey(key)) {
-                nodesMap.get(key).value = value;
-                moveToFront(key);
+                DLNode currentNode = nodesMap.get(key);
+                currentNode.val = value;
+                deleteNode(currentNode);
+                insertFront(currentNode);
             } else {
-                if (capacityLimit == currentCapacity) {
-                    nodesMap.remove(tail.key);
-                    deleteFromBack();
+                if (currentCapacity == maximumCapacity) {
+                    int tailKey = tail.key;
+                    deleteNode(tail);
+                    nodesMap.remove(tailKey);
                 } else {
                     currentCapacity++;
                 }
                 DLNode newNode = new DLNode(key, value);
-                if (head == null) {
-                    head = newNode;
-                    tail = newNode;
-                } else {
-                    head.next = newNode;
-                    newNode.prev = head;
-                    head = newNode;
-                }
                 nodesMap.put(key, newNode);
+                insertFront(newNode);
             }
         }
 
-        public void moveToFront(int key) {
-            DLNode curr = nodesMap.get(key);
-            if (head.key == key) {
-                return;
-            }
-            if (tail.key == key) {
-                deleteFromBack();
-            } else {
-                DLNode prev = curr.prev;
-                DLNode next = curr.next;
-                if (prev != null) {
-                    prev.next = next;
-                }
-                if (next != null) {
-                    next.prev = prev;
-                }
-            }
+        public void insertFront(DLNode node) {
             if (head == null) {
-                head = curr;
-                tail = curr;
-                return;
+                head = node;
+                tail = node;
+            } else {
+                head.next = node;
+                node.prev = head;
+                head = node;
             }
-            head.next = curr;
-            curr.prev = head;
-            head = curr;
         }
 
-        public void deleteFromBack() {
-//            DLNode curr = nodesMap.remove(tail.key);
-            if (tail.key == head.key) {
+        public void deleteNode(DLNode node) {
+            
+            if (node.prev != null && node.next != null) {
+                node.prev.next = node.next;
+                node.next.prev = node.prev;
+            } else if (node.prev != null) {
+                node.prev.next = null;
+            } else if (node.next != null) {
+                node.next.prev = null;
+            }
+            if (node == head && node == tail) {
                 head = null;
                 tail = null;
-            } else {
-                DLNode next = tail.next;
-                next.prev = null;
-                tail = next;
+
+            } else if (node == tail) {
+                tail = tail.next;
+            } else if (node == head) {
+                head = head.prev;
             }
+            node.next = null;
+            node.prev = null;
         }
     }
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
