@@ -206,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
@@ -285,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/0647-palindromic-substrings) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
+| [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/JasonC01/leetcode-solutions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0952-word-subsets) |
@@ -767,6 +769,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/JasonC01/leetcode-solutions/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/JasonC01/leetcode-solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -1026,6 +1029,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/JasonC01/leetcode-solutions/tree/master/0670-maximum-swap) |
+| [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/JasonC01/leetcode-solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/JasonC01/leetcode-solutions/tree/master/1304-longest-happy-string) |
