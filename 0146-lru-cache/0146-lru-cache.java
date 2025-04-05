@@ -1,92 +1,79 @@
-class DLNode {
-        int key;
+class DLNodes {
         int val;
-        DLNode next = null;
-        DLNode prev = null;
-
-        public DLNode(int key, int val) {
-            this.key = key;
+        int key;
+        DLNodes prev = null;
+        DLNodes next = null;
+        public DLNodes(int key, int val) {
             this.val = val;
+            this.key = key;
         }
-
-        
     }
+class LRUCache {
 
-    class LRUCache {
-
-        int maximumCapacity;
+        DLNodes head = null;
+        DLNodes tail = null;
         int currentCapacity = 0;
-
-        HashMap<Integer, DLNode> nodesMap = new HashMap<>();
-        DLNode head = null;
-        DLNode tail = null;
+        int maxCapacity;
+        HashMap<Integer, DLNodes> nodeMap = new HashMap<>();
 
         public LRUCache(int capacity) {
-            this.maximumCapacity = capacity;
+            maxCapacity = capacity;
         }
 
         public int get(int key) {
-             if (!nodesMap.containsKey(key)) {
-                 return -1;
-             } else {
-                 DLNode currentNode = nodesMap.get(key);
-                 deleteNode(currentNode);
-                 insertFront(currentNode);
-                 return currentNode.val;
-             }
-        }
-
-        public void put(int key, int value) {
-            if (nodesMap.containsKey(key)) {
-                DLNode currentNode = nodesMap.get(key);
-                currentNode.val = value;
-                deleteNode(currentNode);
-                insertFront(currentNode);
-            } else {
-                if (currentCapacity == maximumCapacity) {
-                    int tailKey = tail.key;
-                    deleteNode(tail);
-                    nodesMap.remove(tailKey);
-                } else {
-                    currentCapacity++;
-                }
-                DLNode newNode = new DLNode(key, value);
-                nodesMap.put(key, newNode);
-                insertFront(newNode);
+            if (nodeMap.containsKey(key)) {
+                remove(nodeMap.get(key));
+                insertFront(nodeMap.get(key));
+                return nodeMap.get(key).val;
             }
+            return -1;
         }
 
-        public void insertFront(DLNode node) {
-            if (head == null) {
+        public void insertFront(DLNodes node) {
+            if (head == null && tail == null) {
                 head = node;
                 tail = node;
             } else {
-                head.next = node;
                 node.prev = head;
+                head.next = node;
                 head = node;
             }
         }
-
-        public void deleteNode(DLNode node) {
-            
-            if (node.prev != null && node.next != null) {
-                node.prev.next = node.next;
-                node.next.prev = node.prev;
-            } else if (node.prev != null) {
-                node.prev.next = null;
-            } else if (node.next != null) {
-                node.next.prev = null;
-            }
-            if (node == head && node == tail) {
+        
+        public void remove(DLNodes node) {
+            if (node.key == head.key && node.key == tail.key) {
                 head = null;
                 tail = null;
-
-            } else if (node == tail) {
-                tail = tail.next;
-            } else if (node == head) {
+            } else if (node.key == head.key) {
                 head = head.prev;
+                head.next = null;
+            } else if (tail.key == node.key) {
+                tail = tail.next;
+                tail.prev = null;
+            } else {
+                node.prev.next = node.next;
+                node.next.prev = node.prev;
             }
-            node.next = null;
             node.prev = null;
+            node.next = null;
+        }
+
+        public void put(int key, int value) {
+            if (nodeMap.containsKey(key)) {
+                nodeMap.get(key).val = value;
+                remove(nodeMap.get(key));
+                insertFront(nodeMap.get(key));
+            } else {
+                if (currentCapacity == maxCapacity) {
+                    DLNodes toBeRemoved = tail;
+                    remove(toBeRemoved);
+                    nodeMap.remove(toBeRemoved.key);
+                } else {
+                    currentCapacity++;
+                }
+                DLNodes newNode = new DLNodes(key, value);
+                nodeMap.put(key, newNode);
+                insertFront(newNode);
+            }
         }
     }
