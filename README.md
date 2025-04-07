@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/JasonC01/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
@@ -488,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/JasonC01/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
