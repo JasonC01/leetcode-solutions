@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/JasonC01/leetcode-solutions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2716-prime-subtraction-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/2716-prime-subtraction-operation) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/JasonC01/leetcode-solutions/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JasonC01/leetcode-solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/JasonC01/leetcode-solutions/tree/master/2792-neighboring-bitwise-xor) |
@@ -541,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/JasonC01/leetcode-solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/JasonC01/leetcode-solutions/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/JasonC01/leetcode-solutions/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [3427-special-array-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
@@ -855,6 +857,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2681-put-marbles-in-bags](https://github.com/JasonC01/leetcode-solutions/tree/master/2681-put-marbles-in-bags) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/JasonC01/leetcode-solutions/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/JasonC01/leetcode-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/JasonC01/leetcode-solutions/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/JasonC01/leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3001-apply-operations-to-maximize-score](https://github.com/JasonC01/leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
@@ -893,6 +896,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2690-house-robber-iv](https://github.com/JasonC01/leetcode-solutions/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/JasonC01/leetcode-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/2716-prime-subtraction-operation) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/JasonC01/leetcode-solutions/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/JasonC01/leetcode-solutions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
