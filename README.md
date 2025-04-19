@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/JasonC01/leetcode-solutions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/JasonC01/leetcode-solutions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/2189-maximum-path-quality-of-a-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/JasonC01/leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/JasonC01/leetcode-solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2262-solving-questions-with-brainpower](https://github.com/JasonC01/leetcode-solutions/tree/master/2262-solving-questions-with-brainpower) |
@@ -772,6 +773,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1558-course-schedule-iv](https://github.com/JasonC01/leetcode-solutions/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/JasonC01/leetcode-solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/JasonC01/leetcode-solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/2189-maximum-path-quality-of-a-graph) |
 | [2201-valid-arrangement-of-pairs](https://github.com/JasonC01/leetcode-solutions/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/JasonC01/leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/JasonC01/leetcode-solutions/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
@@ -1156,6 +1158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1993-sum-of-all-subset-xor-totals](https://github.com/JasonC01/leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/JasonC01/leetcode-solutions/tree/master/2107-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/2189-maximum-path-quality-of-a-graph) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/JasonC01/leetcode-solutions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/JasonC01/leetcode-solutions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Monotonic Stack
