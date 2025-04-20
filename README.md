@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-sliding-puzzle](https://github.com/JasonC01/leetcode-solutions/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
+| [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
@@ -404,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/JasonC01/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0539-minimum-time-difference](https://github.com/JasonC01/leetcode-solutions/tree/master/0539-minimum-time-difference) |
 | [0670-maximum-swap](https://github.com/JasonC01/leetcode-solutions/tree/master/0670-maximum-swap) |
+| [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
@@ -1094,6 +1097,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0670-maximum-swap](https://github.com/JasonC01/leetcode-solutions/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/JasonC01/leetcode-solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/JasonC01/leetcode-solutions/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1502-construct-k-palindrome-strings) |
