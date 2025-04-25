@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0952-word-subsets) |
 | [1002-maximum-width-ramp](https://github.com/JasonC01/leetcode-solutions/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1025-minimum-cost-for-tickets](https://github.com/JasonC01/leetcode-solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/JasonC01/leetcode-solutions/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/JasonC01/leetcode-solutions/tree/master/1063-best-sightseeing-pair) |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/JasonC01/leetcode-solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1023-time-based-key-value-store](https://github.com/JasonC01/leetcode-solutions/tree/master/1023-time-based-key-value-store) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/JasonC01/leetcode-solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/JasonC01/leetcode-solutions/tree/master/1160-letter-tile-possibilities) |
@@ -555,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/JasonC01/leetcode-solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
