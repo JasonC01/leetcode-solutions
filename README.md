@@ -247,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0694-number-of-distinct-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0694-number-of-distinct-islands) |
 | [0720-longest-word-in-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
@@ -696,6 +697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/JasonC01/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/JasonC01/leetcode-solutions/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0694-number-of-distinct-islands) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/JasonC01/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
@@ -764,6 +766,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/JasonC01/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/JasonC01/leetcode-solutions/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0694-number-of-distinct-islands) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/JasonC01/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/JasonC01/leetcode-solutions/tree/master/0787-sliding-puzzle) |
@@ -802,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/JasonC01/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/JasonC01/leetcode-solutions/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0694-number-of-distinct-islands) |
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
@@ -1311,6 +1315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Function
 |  |
 | ------- |
+| [0694-number-of-distinct-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0694-number-of-distinct-islands) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Minimum Spanning Tree
 |  |
