@@ -1,34 +1,31 @@
 class Solution {
     public int findTheLongestSubstring(String s) {
-        HashMap<Integer, Integer> map = new HashMap<>();
         int currentMask = 0;
-        int currentIndex = 0;
         int ans = 0;
-        map.put(0, -1);
-        for (char c : s.toCharArray()) {
-            if (isVowel(c)) {
-                int mask = currentMask ^ getMask(c);
-                if (map.containsKey(mask)) {
-                    ans = Math.max(ans, currentIndex - map.get(mask));
-                } else {
-                    map.put(mask, currentIndex);
-                }
-                currentMask = mask;
-            } else {
-                if (map.containsKey(currentMask)) {
-                    ans = Math.max(ans, currentIndex - map.get(currentMask));
-                } 
-            }
-            currentIndex++;
+        HashMap<Integer, Integer> maskIndexMap = new HashMap<>();
+        maskIndexMap.put(0, -1);
+        for (int i = 0; i < s.length(); i++) {
+            int mask = getMaskIndex(s.charAt(i));
+            currentMask ^= mask;
+            if (maskIndexMap.containsKey(currentMask)) ans = Math.max(ans, i - maskIndexMap.get(currentMask));
+            else maskIndexMap.put(currentMask, i);
         }
         return ans;
     }
-
-    public boolean isVowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
-
-    public int getMask(char c) {
-        return c == 'a' ? 16 : c == 'e' ? 8 : c == 'i' ? 4 : c == 'o' ? 2 : 1;
+    
+    public int getMaskIndex(char c) {
+        switch (c) {
+            case 'a':
+                return 1;
+            case 'e':
+                return 2;
+            case 'i':
+                return 4;
+            case 'o':
+                return 8;
+            case 'u':
+                return 16;
+        }
+        return 0;
     }
 }
