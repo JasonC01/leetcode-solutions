@@ -284,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1500-count-largest-group](https://github.com/JasonC01/leetcode-solutions/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1668-find-longest-awesome-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/1668-find-longest-awesome-substring) |
 | [1694-make-sum-divisible-by-p](https://github.com/JasonC01/leetcode-solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -381,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1537-maximum-score-after-splitting-a-string](https://github.com/JasonC01/leetcode-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/JasonC01/leetcode-solutions/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/JasonC01/leetcode-solutions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1668-find-longest-awesome-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/1668-find-longest-awesome-substring) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -1087,6 +1089,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0078-subsets) |
 | [1435-xor-queries-of-a-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/JasonC01/leetcode-solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1668-find-longest-awesome-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/1668-find-longest-awesome-substring) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1940-maximum-xor-for-each-query](https://github.com/JasonC01/leetcode-solutions/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/JasonC01/leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
