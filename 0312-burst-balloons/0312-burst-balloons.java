@@ -1,27 +1,22 @@
 class Solution {
-    public int maxCoins(int[] nums) {
-        int[][] matrices = new int[nums.length + 1][2];
-        for (int i = 0; i < nums.length; i++) {
-            if (i == 0) {
-                matrices[i] = new int[]{1, nums[i]};
-            } else {
-                matrices[i] = new int[]{nums[i - 1], nums[i]};
-            }
+     public int maxCoins(int[] nums) {
+        List<int[]> arrs = new ArrayList<>();
+        arrs.add(new int[]{1, nums[0]});
+        for (int i = 0; i < nums.length - 1; i++) {
+            arrs.add(new int[]{nums[i], nums[i + 1]});
         }
-        matrices[matrices.length - 1] = new int[]{nums[nums.length - 1], 1};
-        int[][] dp = new int[matrices.length][matrices.length];
-        for (int i = 0; i < dp.length; i++) {
-            dp[i][i] = 0;
-        }
-        for (int chain_length = 2; chain_length <= matrices.length; chain_length++) {
-            for (int start = 0; start < matrices.length - chain_length + 1; start++) {
-                int end = start + chain_length - 1;
+        arrs.add(new int[]{nums[nums.length - 1], 1});
+        int[][] dp = new int[arrs.size()][arrs.size()];
+        for (int length = 2; length <= arrs.size(); length++) {
+            for (int start = 0; start <= arrs.size() - length; start++) {
+                int end = start + length - 1;
                 dp[start][end] = Integer.MIN_VALUE;
-                for (int split = start; split <= end - 1; split++) {
-                    dp[start][end] = Math.max(dp[start][split] + dp[split + 1][end] + matrices[start][0] * matrices[split][1] * matrices[end][1], dp[start][end]); 
+                for (int k = start; k < end; k++) {
+                    dp[start][end] = Math.max(dp[start][end], dp[start][k] + dp[k + 1][end] + (arrs.get(start)[0] * arrs.get(k)[1] * arrs.get(end)[1]));
                 }
             }
         }
-        return dp[0][dp.length - 1];
+        System.out.println(Arrays.deepToString(dp));
+        return dp[0][arrs.size() - 1];
     }
 }
