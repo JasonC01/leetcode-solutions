@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/JasonC01/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/JasonC01/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/JasonC01/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/0269-alien-dictionary) |
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/JasonC01/leetcode-solutions/tree/master/0307-range-sum-query-mutable) |
@@ -609,6 +610,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/JasonC01/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -899,6 +901,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/JasonC01/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/JasonC01/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/JasonC01/leetcode-solutions/tree/master/0141-linked-list-cycle) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JasonC01/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0567-permutation-in-string](https://github.com/JasonC01/leetcode-solutions/tree/master/0567-permutation-in-string) |
@@ -933,6 +936,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JasonC01/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/JasonC01/leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/JasonC01/leetcode-solutions/tree/master/0524-longest-word-in-dictionary-through-deleting) |
@@ -1102,6 +1106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/JasonC01/leetcode-solutions/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/JasonC01/leetcode-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
@@ -1193,6 +1198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0134-gas-station](https://github.com/JasonC01/leetcode-solutions/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
+| [0253-meeting-rooms-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0253-meeting-rooms-ii) |
 | [0621-task-scheduler](https://github.com/JasonC01/leetcode-solutions/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/JasonC01/leetcode-solutions/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/JasonC01/leetcode-solutions/tree/master/0670-maximum-swap) |
