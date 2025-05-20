@@ -1,46 +1,52 @@
 class Trie {
-
-        HashMap<Character, Trie> map = new HashMap<>();
-        public Trie() {
-        }
-
-        public void insert(String word) {
-            if (!map.containsKey(word.charAt(0))) {
-                map.put(word.charAt(0), new Trie());
-            }
-            Trie curr = map.get(word.charAt(0));
-            for (int i = 1; i < word.length(); i++) {
-                char c = word.charAt(i);
-                if (!curr.map.containsKey(c)) {
-                    curr.map.put(c, new Trie());
-                }
-                curr = curr.map.get(c);
-            }
-            curr.map.put('0', null);
-        }
-
-        public boolean search(String word) {
-            Trie curr = this;
-            for (char c : word.toCharArray()) {
-                if (!curr.map.containsKey(c)) {
-                    return false;
-                }
-                curr = curr.map.get(c);
-            }
-            return curr.map.containsKey('0');
-        }
-
-        public boolean startsWith(String prefix) {
-            Trie curr = this;
-            for (char c : prefix.toCharArray()) {
-                if (!curr.map.containsKey(c)) {
-                    return false;
-                }
-                curr = curr.map.get(c);
-            }
-            return true;
+    char EOS = '#';
+    class TrieNode {
+        char currChar;
+        HashMap<Character, TrieNode> neighbours = new HashMap<>();
+        public TrieNode(char c) {
+            this.currChar = c;
         }
     }
+    TrieNode root = new TrieNode('.');
+    public Trie() {
+        
+    }
+    public void insert(String word) {
+        TrieNode curr = root;
+        int index = 0;
+        while (index < word.length() && curr.neighbours.containsKey(word.charAt(index))) {
+            curr = curr.neighbours.get(word.charAt(index));
+            index++;
+        }
+        while (index < word.length()) {
+            curr.neighbours.put(word.charAt(index), new TrieNode(word.charAt(index)));
+            curr = curr.neighbours.get(word.charAt(index));
+            index++;
+        }
+        curr.neighbours.put(EOS, new TrieNode(EOS));
+    }
+
+    public boolean search(String word) {
+        // System.out.println(root.neighbours);
+        TrieNode curr = root;
+        int index = 0;
+        while (index < word.length() && curr.neighbours.containsKey(word.charAt(index))) {
+            curr = curr.neighbours.get(word.charAt(index));
+            index++;
+        }
+        return index == word.length() && curr.neighbours.containsKey(EOS);
+    }
+
+    public boolean startsWith(String prefix) {
+        TrieNode curr = root;
+        int index = 0;
+        while (index < prefix.length() && curr.neighbours.containsKey(prefix.charAt(index))) {
+            curr = curr.neighbours.get(prefix.charAt(index));
+            index++;
+        }
+        return index == prefix.length();
+    }
+}
 
 /**
  * Your Trie object will be instantiated and called as such:
