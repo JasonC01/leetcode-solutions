@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0057-insert-interval](https://github.com/JasonC01/leetcode-solutions/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/JasonC01/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/JasonC01/leetcode-solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/JasonC01/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/JasonC01/leetcode-solutions/tree/master/0134-gas-station) |
@@ -330,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/JasonC01/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/JasonC01/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/JasonC01/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/JasonC01/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
@@ -490,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/JasonC01/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
@@ -688,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0133-clone-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/0133-clone-graph) |
@@ -1251,6 +1255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/JasonC01/leetcode-solutions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/JasonC01/leetcode-solutions/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/JasonC01/leetcode-solutions/tree/master/1331-path-with-maximum-gold) |
