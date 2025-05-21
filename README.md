@@ -406,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/JasonC01/leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2577-count-palindromic-subsequences](https://github.com/JasonC01/leetcode-solutions/tree/master/2577-count-palindromic-subsequences) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/JasonC01/leetcode-solutions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/JasonC01/leetcode-solutions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/JasonC01/leetcode-solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -607,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2415-count-the-number-of-ideal-arrays](https://github.com/JasonC01/leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2554-minimum-total-distance-traveled](https://github.com/JasonC01/leetcode-solutions/tree/master/2554-minimum-total-distance-traveled) |
 | [2562-count-ways-to-build-good-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/2562-count-ways-to-build-good-strings) |
+| [2577-count-palindromic-subsequences](https://github.com/JasonC01/leetcode-solutions/tree/master/2577-count-palindromic-subsequences) |
 | [2586-longest-square-streak-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
