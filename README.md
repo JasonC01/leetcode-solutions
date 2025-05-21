@@ -609,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2562-count-ways-to-build-good-strings](https://github.com/JasonC01/leetcode-solutions/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/JasonC01/leetcode-solutions/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -700,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2564-most-profitable-path-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/JasonC01/leetcode-solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Depth-First Search
@@ -751,6 +753,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2677-cousins-in-binary-tree-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/JasonC01/leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/JasonC01/leetcode-solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
@@ -1105,6 +1108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2533-bitwise-xor-of-all-pairings](https://github.com/JasonC01/leetcode-solutions/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/JasonC01/leetcode-solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/JasonC01/leetcode-solutions/tree/master/2792-neighboring-bitwise-xor) |
+| [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3291-find-if-array-can-be-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/3291-find-if-array-can-be-sorted) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -1387,4 +1391,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1993-sum-of-all-subset-xor-totals](https://github.com/JasonC01/leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/JasonC01/leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/JasonC01/leetcode-solutions/tree/master/3548-find-the-count-of-good-integers) |
+## Bitmask
+|  |
+| ------- |
+| [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 <!---LeetCode Topics End-->
