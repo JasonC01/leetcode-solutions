@@ -339,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/JasonC01/leetcode-solutions/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/JasonC01/leetcode-solutions/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/JasonC01/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/JasonC01/leetcode-solutions/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
@@ -1289,6 +1290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/JasonC01/leetcode-solutions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/JasonC01/leetcode-solutions/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/JasonC01/leetcode-solutions/tree/master/1160-letter-tile-possibilities) |
