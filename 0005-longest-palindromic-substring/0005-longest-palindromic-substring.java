@@ -1,31 +1,31 @@
 class Solution {
     public String longestPalindrome(String s) {
-        boolean[][] memo = new boolean[s.length()][s.length()];
-        for (boolean[] i : memo) {
-            Arrays.fill(i, false);
-        }
-        int sAns = 0;
-        int eAns = 0;
+        int low = 0;
+        int high = 0;
         for (int i = 0; i < s.length(); i++) {
-            memo[i][i] = true;
-        }
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i) == s.charAt(i - 1)) {
-                sAns = i - 1;
-                eAns = i;
-                memo[i - 1][i] = true;
+            int currLength = 0;
+            while (i - (currLength + 1) >= 0 && i + (currLength + 1) < s.length() && s.charAt(i - (currLength + 1)) == s.charAt(i + currLength + 1)) {
+                currLength++;
+            }
+            int totalLength = 2 * currLength + 1;
+            if (totalLength > high - low) {
+                low = i - currLength;
+                high = i + currLength + 1;
             }
         }
-        for (int length = 3; length <= s.length(); length++) {
-            for (int start = 0; start <= s.length() - length; start++) {
-                int end = start + length - 1;
-                if (memo[start + 1][end - 1] && s.charAt(start) == s.charAt(end)) {
-                    memo[start][end] = true;
-                    sAns = start;
-                    eAns = end;
+        for (int i = 0; i < s.length() - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                int currLength = 0;
+                while (i - (currLength + 1) >= 0 && i + 1 + (currLength + 1) < s.length() && s.charAt(i - (currLength + 1)) == s.charAt(i + 1 + currLength + 1)) {
+                    currLength++;
+                }
+                int totalLength = 2 * currLength + 2;
+                if (totalLength > high - low) {
+                    low = i - currLength;
+                    high = i + currLength + 2;
                 }
             }
         }
-        return s.substring(sAns, eAns + 1);
+        return s.substring(low, high);
     }
 }
