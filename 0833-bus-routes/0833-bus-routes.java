@@ -1,53 +1,37 @@
 class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
-        if (source == target) {
-            return 0;
-        }
-        HashMap<Integer, List<Integer>> stationList = new HashMap<>();
-        for (int i = 0; i < routes.length; i++) {
-            int[] route = routes[i];
-            for (int station : route) {
-                if (!stationList.containsKey(station)) {
-                    stationList.put(station, new ArrayList<>());
-                }
-                stationList.get(station).add(i);
-            }
-        }
-        if (!stationList.containsKey(target) || !stationList.containsKey(source)) {
-            return -1;
-        }
-//
-//
-//        HashMap<Integer, List<Integer>> busList = new HashMap<>();
-//        for (int i = 0; i < routes.length; i++) {
-//            busList.put(i, new ArrayList<>());
-//            for (int station : routes[i]) {
-//                busList.get(i).addAll(stationList.get(station));
-//            }
-//        }
-        Queue<Integer> queue = new ArrayDeque<>(stationList.get(target));
-        int levelSize = queue.size();
-        int level = 1;
+        HashMap<Integer, HashSet<Integer>> adjList = new HashMap<>(); // station -> [adjacent station, bus number]
         HashSet<Integer> visited = new HashSet<>();
-        while (!queue.isEmpty()) {
-            int currBus = queue.poll();
-            if (stationList.get(source).contains(currBus)) {
-                return level;
+        for (int r = 0; r < routes.length; r++) {
+            int[] route = routes[r];
+            for (int i = 0; i < route.length; i++) {
+                int curr = route[i];
+                adjList.computeIfAbsent(curr, x -> new HashSet<>());
+                adjList.get(curr).add(r);
             }
-            levelSize--;
-            if (!visited.contains(currBus)) {
-                visited.add(currBus);
-                for (int i : routes[currBus]) {
-                    for (int bus : stationList.get(i)) {
-                        if (!visited.contains(bus)) {
-                            queue.add(bus);
+        }
+        if (source == target) return 0;
+        if (!adjList.containsKey(source) || !adjList.containsKey(target)) return -1;
+        Queue<Integer> q = new ArrayDeque<>(adjList.get(target));
+        int level = 1;
+        int qSize = q.size();
+        while (!q.isEmpty()) {
+            int currentBus = q.poll();
+            qSize--;
+            if (adjList.get(source).contains(currentBus)) return level;
+            if (!visited.contains(currentBus)) {
+                visited.add(currentBus);
+                for (int station : routes[currentBus]) {
+                    for (int adjBus : adjList.getOrDefault(station, new HashSet<>())) {
+                        if (adjBus != currentBus && !visited.contains(adjBus)) {
+                            q.add(adjBus);
                         }
                     }
                 }
             }
-            if (levelSize == 0) {
-                levelSize = queue.size();
+            if (qSize == 0) {
                 level++;
+                qSize = q.size();
             }
         }
         return -1;
