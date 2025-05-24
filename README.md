@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
+| [0833-bus-routes](https://github.com/JasonC01/leetcode-solutions/tree/master/0833-bus-routes) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
@@ -262,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/JasonC01/leetcode-solutions/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/JasonC01/leetcode-solutions/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
+| [0833-bus-routes](https://github.com/JasonC01/leetcode-solutions/tree/master/0833-bus-routes) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
@@ -814,6 +816,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/JasonC01/leetcode-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/JasonC01/leetcode-solutions/tree/master/0820-find-eventual-safe-states) |
+| [0833-bus-routes](https://github.com/JasonC01/leetcode-solutions/tree/master/0833-bus-routes) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
 | [0960-minimize-malware-spread](https://github.com/JasonC01/leetcode-solutions/tree/master/0960-minimize-malware-spread) |
 | [1036-rotting-oranges](https://github.com/JasonC01/leetcode-solutions/tree/master/1036-rotting-oranges) |
