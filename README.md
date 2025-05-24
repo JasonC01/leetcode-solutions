@@ -915,6 +915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/JasonC01/leetcode-solutions/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/1484-linked-list-in-binary-tree) |
+| [1992-sort-linked-list-already-sorted-using-absolute-values](https://github.com/JasonC01/leetcode-solutions/tree/master/1992-sort-linked-list-already-sorted-using-absolute-values) |
 | [2411-spiral-matrix-iv](https://github.com/JasonC01/leetcode-solutions/tree/master/2411-spiral-matrix-iv) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/JasonC01/leetcode-solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/JasonC01/leetcode-solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -940,6 +941,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1923-sentence-similarity-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/JasonC01/leetcode-solutions/tree/master/1972-rotating-the-box) |
+| [1992-sort-linked-list-already-sorted-using-absolute-values](https://github.com/JasonC01/leetcode-solutions/tree/master/1992-sort-linked-list-already-sorted-using-absolute-values) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/JasonC01/leetcode-solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/JasonC01/leetcode-solutions/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/JasonC01/leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -978,6 +980,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1352-maximum-profit-in-job-scheduling](https://github.com/JasonC01/leetcode-solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/JasonC01/leetcode-solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/JasonC01/leetcode-solutions/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1992-sort-linked-list-already-sorted-using-absolute-values](https://github.com/JasonC01/leetcode-solutions/tree/master/1992-sort-linked-list-already-sorted-using-absolute-values) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/JasonC01/leetcode-solutions/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/JasonC01/leetcode-solutions/tree/master/2179-most-beautiful-item-for-each-query) |
