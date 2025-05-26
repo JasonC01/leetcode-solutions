@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/JasonC01/leetcode-solutions/tree/master/1036-rotting-oranges) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/JasonC01/leetcode-solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1063-best-sightseeing-pair](https://github.com/JasonC01/leetcode-solutions/tree/master/1063-best-sightseeing-pair) |
+| [1121-partition-array-for-maximum-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1137-height-checker](https://github.com/JasonC01/leetcode-solutions/tree/master/1137-height-checker) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/JasonC01/leetcode-solutions/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/JasonC01/leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -610,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1013-fibonacci-number](https://github.com/JasonC01/leetcode-solutions/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/JasonC01/leetcode-solutions/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/JasonC01/leetcode-solutions/tree/master/1063-best-sightseeing-pair) |
+| [1121-partition-array-for-maximum-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1170-shortest-common-supersequence](https://github.com/JasonC01/leetcode-solutions/tree/master/1170-shortest-common-supersequence) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/1250-longest-common-subsequence) |
