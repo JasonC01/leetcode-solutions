@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1524-string-matching-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1524-string-matching-in-an-array) |
+| [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/JasonC01/leetcode-solutions/tree/master/1656-count-good-triplets) |
@@ -529,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/JasonC01/leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/JasonC01/leetcode-solutions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1876-map-of-highest-peak](https://github.com/JasonC01/leetcode-solutions/tree/master/1876-map-of-highest-peak) |
 | [1972-rotating-the-box](https://github.com/JasonC01/leetcode-solutions/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/2035-count-sub-islands) |
@@ -607,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/1250-longest-common-subsequence) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/JasonC01/leetcode-solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/JasonC01/leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -640,6 +643,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/JasonC01/leetcode-solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1477-product-of-the-last-k-numbers](https://github.com/JasonC01/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/JasonC01/leetcode-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/JasonC01/leetcode-solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/JasonC01/leetcode-solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -1091,6 +1095,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/JasonC01/leetcode-solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/JasonC01/leetcode-solutions/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/JasonC01/leetcode-solutions/tree/master/1013-fibonacci-number) |
+| [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 ## Divide and Conquer
 |  |
 | ------- |
