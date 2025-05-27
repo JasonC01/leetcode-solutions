@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/JasonC01/leetcode-solutions/tree/master/1656-count-good-triplets) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/JasonC01/leetcode-solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/JasonC01/leetcode-solutions/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/JasonC01/leetcode-solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1706-min-cost-to-connect-all-points](https://github.com/JasonC01/leetcode-solutions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -619,6 +620,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/JasonC01/leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/JasonC01/leetcode-solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/JasonC01/leetcode-solutions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -995,6 +997,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1352-maximum-profit-in-job-scheduling](https://github.com/JasonC01/leetcode-solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1436-get-watched-videos-by-your-friends](https://github.com/JasonC01/leetcode-solutions/tree/master/1436-get-watched-videos-by-your-friends) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/JasonC01/leetcode-solutions/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/JasonC01/leetcode-solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1992-sort-linked-list-already-sorted-using-absolute-values](https://github.com/JasonC01/leetcode-solutions/tree/master/1992-sort-linked-list-already-sorted-using-absolute-values) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/JasonC01/leetcode-solutions/tree/master/2164-two-best-non-overlapping-events) |
