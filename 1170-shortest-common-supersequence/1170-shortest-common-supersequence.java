@@ -1,57 +1,49 @@
 class Solution {
+    HashMap<Integer, HashMap<Integer, Integer>> memo = new HashMap<>();
     public String shortestCommonSupersequence(String str1, String str2) {
-        int[][] memo = new int[str1.length() + 1][str2.length() + 1];
-        for (int i = str1.length() - 1; i >= 0; i--) {
-            for (int j = str2.length() - 1; j >= 0; j--) {
-                if (str1.charAt(i) == str2.charAt(j)) {
-                    memo[i][j] = 1 + memo[i + 1][j + 1];
+        helper(str1, str2, 0, 0);
+        StringBuilder sb = new StringBuilder();
+        int i = 0;
+        int j = 0;
+        while (i <= str1.length() && j <= str2.length()) {
+            if (i == str1.length()) {
+                sb.append(str2.substring(j));
+                break;
+            }
+            if (j == str2.length()) {
+                sb.append(str1.substring(i));
+                break;
+            }
+            if (str1.charAt(i) == str2.charAt(j)) {
+                sb.append(str1.charAt(i));
+                i++;
+                j++;
+            } else {
+                if (helper(str1, str2, i, j + 1) < helper(str1, str2, i + 1, j)) {
+                    sb.append(str2.charAt(j));
+                    j++;
                 } else {
-                    memo[i][j] = Math.max(memo[i + 1][j], memo[i][j + 1]);
+                    sb.append(str1.charAt(i));
+                    i++;
                 }
             }
         }
-        StringBuilder sb = new StringBuilder();
-        int firstIndex = 0;
-        int secondIndex = 0;
-        int commonIndex = 0;
-        String common = backTrack(str1, str2, memo);
-        System.out.println(common);
-        while (firstIndex < str1.length() && secondIndex < str2.length() && commonIndex < common.length()) {
-            while (firstIndex < str1.length() && str1.charAt(firstIndex) != common.charAt(commonIndex)) {
-                sb.append(str1.charAt(firstIndex));
-                firstIndex++;
-            }
-            firstIndex++;
-            while (secondIndex < str2.length() && str2.charAt(secondIndex) != common.charAt(commonIndex)) {
-                sb.append(str2.charAt(secondIndex));
-                secondIndex++;
-            }
-            secondIndex++;
-            sb.append(common.charAt(commonIndex));
-            commonIndex++;
-        }
-        sb.append(str1.substring(firstIndex));
-        sb.append(str2.substring(secondIndex));
+
         return sb.toString();
     }
-    
-    public String backTrack(String str1, String str2, int[][] memo) {
-        StringBuilder sb = new StringBuilder();
-        int firstIndex = 0;
-        int secondIndex = 0;
-        while (firstIndex < str1.length() && secondIndex < str2.length()) {
-            if (str1.charAt(firstIndex) == str2.charAt(secondIndex)) {
-                sb.append(str1.charAt(firstIndex));
-                firstIndex++;
-                secondIndex++;
-            } else {
-                if (memo[firstIndex][secondIndex + 1] > memo[firstIndex + 1][secondIndex]) {
-                    secondIndex++;
-                } else {
-                    firstIndex++;
-                }
-            }
+
+    public int helper(String str1, String str2, int i, int j) {
+        if (i == str1.length()) return str2.length() - j;
+        if (j == str2.length()) return str1.length() - i;
+        if (memo.containsKey(i) && memo.get(i).containsKey(j)) return memo.get(i).get(j);
+        int res;
+        if (str1.charAt(i) == str2.charAt(j)) {
+            res = 1 + helper(str1, str2, i + 1, j + 1);
+        } else {
+            res = Math.min(helper(str1, str2, i + 1, j) + 1, helper(str1, str2, i, j + 1) + 1);
         }
-        return sb.toString();
+        memo.computeIfAbsent(i, x -> new HashMap<>());
+        memo.get(i).put(j, res);
+        return res;
     }
 }
