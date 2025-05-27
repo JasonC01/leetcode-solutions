@@ -1,16 +1,21 @@
 class Solution {
+    int[][] memo;
     public int longestCommonSubsequence(String text1, String text2) {
-        int[][] dp = new int[text1.length() + 1][text2.length() + 1];
-//        dp[i][j] = length of lcs from text1[0:i], text2[0:j]
-        for (int i = 1; i <= text1.length(); i++) {
-            for (int j = 1; j <= text2.length(); j++) {
-                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-                }
-            }
+        memo = new int[text1.length()][text2.length()];
+        for (int[] arr : memo) Arrays.fill(arr, -1);
+        return helper(text1, text2, 0, 0);
+    }
+
+    public int helper(String text1, String text2, int i, int j) {
+        if (i == text1.length() || j == text2.length()) return 0;
+        if (memo[i][j] != -1) return memo[i][j];
+        int res = 0;
+        if (text1.charAt(i) == text2.charAt(j)) {
+            res = 1 + helper(text1, text2, i + 1, j + 1);
+        } else {
+            res = Math.max(helper(text1, text2, i + 1, j), helper(text1, text2, i, j + 1));
         }
-        return dp[text1.length()][text2.length()];
+        memo[i][j] = res;
+        return res;
     }
 }
