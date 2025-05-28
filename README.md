@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/JasonC01/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/JasonC01/leetcode-solutions/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1522-stone-game-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/1522-stone-game-iii) |
 | [1524-string-matching-in-an-array](https://github.com/JasonC01/leetcode-solutions/tree/master/1524-string-matching-in-an-array) |
 | [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -486,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/JasonC01/leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/JasonC01/leetcode-solutions/tree/master/1477-product-of-the-last-k-numbers) |
 | [1500-count-largest-group](https://github.com/JasonC01/leetcode-solutions/tree/master/1500-count-largest-group) |
+| [1522-stone-game-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/1522-stone-game-iii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/JasonC01/leetcode-solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/JasonC01/leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -624,6 +626,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/1250-longest-common-subsequence) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/JasonC01/leetcode-solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/JasonC01/leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1522-stone-game-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/1522-stone-game-iii) |
 | [1555-number-of-ways-of-cutting-a-pizza](https://github.com/JasonC01/leetcode-solutions/tree/master/1555-number-of-ways-of-cutting-a-pizza) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/JasonC01/leetcode-solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -684,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0909-stone-game](https://github.com/JasonC01/leetcode-solutions/tree/master/0909-stone-game) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
+| [1522-stone-game-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/1522-stone-game-iii) |
 ## Stack
 |  |
 | ------- |
