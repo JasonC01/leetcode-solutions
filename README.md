@@ -799,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/JasonC01/leetcode-solutions/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -881,6 +882,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2914-find-the-safest-path-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/JasonC01/leetcode-solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Union Find
 |  |
 | ------- |
@@ -944,6 +946,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Linked List
 |  |
 | ------- |
@@ -1091,6 +1094,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3427-special-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1417,6 +1421,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/JasonC01/leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/JasonC01/leetcode-solutions/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Eulerian Circuit
 |  |
 | ------- |
