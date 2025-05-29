@@ -773,6 +773,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/JasonC01/leetcode-solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/JasonC01/leetcode-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/JasonC01/leetcode-solutions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/JasonC01/leetcode-solutions/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
 | [0960-minimize-malware-spread](https://github.com/JasonC01/leetcode-solutions/tree/master/0960-minimize-malware-spread) |
@@ -851,6 +852,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/JasonC01/leetcode-solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/JasonC01/leetcode-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/JasonC01/leetcode-solutions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/JasonC01/leetcode-solutions/tree/master/0820-find-eventual-safe-states) |
 | [0833-bus-routes](https://github.com/JasonC01/leetcode-solutions/tree/master/0833-bus-routes) |
 | [0854-making-a-large-island](https://github.com/JasonC01/leetcode-solutions/tree/master/0854-making-a-large-island) |
@@ -920,6 +922,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/JasonC01/leetcode-solutions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/JasonC01/leetcode-solutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/JasonC01/leetcode-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/JasonC01/leetcode-solutions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/JasonC01/leetcode-solutions/tree/master/0820-find-eventual-safe-states) |
 | [0960-minimize-malware-spread](https://github.com/JasonC01/leetcode-solutions/tree/master/0960-minimize-malware-spread) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/JasonC01/leetcode-solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -1360,6 +1363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0093-restore-ip-addresses](https://github.com/JasonC01/leetcode-solutions/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0494-target-sum) |
+| [0813-all-paths-from-source-to-target](https://github.com/JasonC01/leetcode-solutions/tree/master/0813-all-paths-from-source-to-target) |
 | [1160-letter-tile-possibilities](https://github.com/JasonC01/leetcode-solutions/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/JasonC01/leetcode-solutions/tree/master/1331-path-with-maximum-gold) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/JasonC01/leetcode-solutions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
