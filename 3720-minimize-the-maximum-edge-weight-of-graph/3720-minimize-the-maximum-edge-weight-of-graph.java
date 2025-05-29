@@ -16,7 +16,7 @@ class Solution {
             int from = currEdge[1];
             int to = currEdge[0];
             int weight = currEdge[2];
-            if (outDegree[to] >= threshold || visited.contains(to)) continue;
+            if (visited.contains(to)) continue;
             visited.add(from);
             visited.add(to);
             outDegree[to]++;
