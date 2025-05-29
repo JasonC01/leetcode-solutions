@@ -11,7 +11,7 @@ class Solution {
             ans.add(res);
             return ans;
         }
-        if (memo.containsKey(currNode)) return memo.get(currNode);
+        // if (memo.containsKey(currNode)) return memo.get(currNode);
         for (int adj : graph[currNode]) {
             List<List<Integer>> res = dfs(graph, adj, memo);
             for (List<Integer> path : res) {
