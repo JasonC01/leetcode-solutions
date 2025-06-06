@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/JasonC01/leetcode-solutions/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/JasonC01/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/JasonC01/leetcode-solutions/tree/master/0307-range-sum-query-mutable) |
+| [0311-sparse-matrix-multiplication](https://github.com/JasonC01/leetcode-solutions/tree/master/0311-sparse-matrix-multiplication) |
 | [0312-burst-balloons](https://github.com/JasonC01/leetcode-solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/JasonC01/leetcode-solutions/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/JasonC01/leetcode-solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/JasonC01/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0311-sparse-matrix-multiplication](https://github.com/JasonC01/leetcode-solutions/tree/master/0311-sparse-matrix-multiplication) |
 | [0383-ransom-note](https://github.com/JasonC01/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0432-all-oone-data-structure](https://github.com/JasonC01/leetcode-solutions/tree/master/0432-all-oone-data-structure) |
 | [0560-subarray-sum-equals-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -536,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/JasonC01/leetcode-solutions/tree/master/0221-maximal-square) |
 | [0286-walls-and-gates](https://github.com/JasonC01/leetcode-solutions/tree/master/0286-walls-and-gates) |
+| [0311-sparse-matrix-multiplication](https://github.com/JasonC01/leetcode-solutions/tree/master/0311-sparse-matrix-multiplication) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/JasonC01/leetcode-solutions/tree/master/0542-01-matrix) |
