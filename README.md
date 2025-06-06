@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0906-walking-robot-simulation](https://github.com/JasonC01/leetcode-solutions/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/JasonC01/leetcode-solutions/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/JasonC01/leetcode-solutions/tree/master/0909-stone-game) |
+| [0912-random-pick-with-weight](https://github.com/JasonC01/leetcode-solutions/tree/master/0912-random-pick-with-weight) |
 | [0921-spiral-matrix-iii](https://github.com/JasonC01/leetcode-solutions/tree/master/0921-spiral-matrix-iii) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/JasonC01/leetcode-solutions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0952-word-subsets) |
@@ -488,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/JasonC01/leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/JasonC01/leetcode-solutions/tree/master/0870-magic-squares-in-grid) |
 | [0909-stone-game](https://github.com/JasonC01/leetcode-solutions/tree/master/0909-stone-game) |
+| [0912-random-pick-with-weight](https://github.com/JasonC01/leetcode-solutions/tree/master/0912-random-pick-with-weight) |
 | [1013-fibonacci-number](https://github.com/JasonC01/leetcode-solutions/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/JasonC01/leetcode-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
@@ -665,6 +667,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0731-my-calendar-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [0912-random-pick-with-weight](https://github.com/JasonC01/leetcode-solutions/tree/master/0912-random-pick-with-weight) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/JasonC01/leetcode-solutions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1240-stone-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/1435-xor-queries-of-a-subarray) |
@@ -1077,6 +1080,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/JasonC01/leetcode-solutions/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/JasonC01/leetcode-solutions/tree/master/0907-koko-eating-bananas) |
+| [0912-random-pick-with-weight](https://github.com/JasonC01/leetcode-solutions/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/JasonC01/leetcode-solutions/tree/master/1023-time-based-key-value-store) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/JasonC01/leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/JasonC01/leetcode-solutions/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -1485,4 +1489,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2905-count-paths-that-can-form-a-palindrome-in-a-tree](https://github.com/JasonC01/leetcode-solutions/tree/master/2905-count-paths-that-can-form-a-palindrome-in-a-tree) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/JasonC01/leetcode-solutions/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
