@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/JasonC01/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/JasonC01/leetcode-solutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/JasonC01/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/JasonC01/leetcode-solutions/tree/master/0051-n-queens) |
@@ -606,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/JasonC01/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/JasonC01/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/JasonC01/leetcode-solutions/tree/master/0072-edit-distance) |
@@ -1306,6 +1308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/JasonC01/leetcode-solutions/tree/master/0134-gas-station) |
 | [0179-largest-number](https://github.com/JasonC01/leetcode-solutions/tree/master/0179-largest-number) |
