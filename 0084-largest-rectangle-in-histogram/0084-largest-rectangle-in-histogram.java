@@ -1,30 +1,30 @@
 class Solution {
-    public int largestRectangleArea(int[] heights) {
-        Stack<Integer> stack = new Stack<>();
-        Stack<Integer> lengths = new Stack<>();
+     public int largestRectangleArea(int[] heights) {
+        Stack<int[]> stack = new Stack<>();
         int ans = 0;
-        for (int i : heights) {
-            int totalLength = 0;
-            int minHeight = Integer.MAX_VALUE;
-            while (!stack.isEmpty() && stack.peek() > i) {
-                totalLength += lengths.pop();
-                minHeight = Math.min(minHeight, stack.pop());
-                ans = Math.max(ans, totalLength * minHeight);
-                
+        for (int i = 0; i < heights.length; i++) {
+            int currHeight = heights[i];
+            int currWidth = 1;
+            if (!stack.isEmpty() && stack.peek()[0] >= currHeight) {
+                int[] greatest = stack.pop();
+                currWidth += greatest[1];
+                while (!stack.isEmpty() && stack.peek()[0] >= currHeight) {
+                    int[] curr = stack.pop();
+                    currWidth += curr[1];
+                    ans = Math.max(ans, curr[0] * (currWidth - 1));
+                }
             }
-           
-            stack.push(i);
-            lengths.push(totalLength + 1);
+            ans = Math.max(ans, currHeight * currWidth);
+            stack.push(new int[]{currHeight, currWidth});
         }
-        int minHeight = Integer.MAX_VALUE;
-        int totalLength = 0;
-
-        while (!lengths.isEmpty()) {
-            minHeight = Math.min(minHeight, stack.pop());
-            totalLength += lengths.pop();
-            ans = Math.max(totalLength * minHeight, ans);
+        if (!stack.isEmpty()) {
+            int[] curr = stack.pop();
+            int width = curr[1];
+            while (!stack.isEmpty()) {
+                width += stack.peek()[1];
+                ans = Math.max(ans, stack.pop()[0] * width);
+            }
         }
-        // ans = Math.max(ans, totalLength * minHeight);
         return ans;
     }
 }
