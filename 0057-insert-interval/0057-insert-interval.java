@@ -1,26 +1,33 @@
 class Solution {
-    public int[][] insert(int[][] intervals, int[] newInterval) {
-        Stack<int[]> stack = new Stack<>();
-        List<int[]> ints = new ArrayList<>(Arrays.asList(intervals));
-        ints.add(newInterval);
-        ints.sort(Comparator.comparing(x -> x[0]));
-        for (int[] i : ints) {
-            if (stack.isEmpty()) {
-                stack.push(i);
-                continue;
-            }
-            int[] peeked = stack.peek();
-            if (peeked[1] >= i[0]) {
-                peeked[1] = Math.max(peeked[1], i[1]);
+     public int[][] insert(int[][] intervals, int[] newInterval) {
+        if (intervals.length == 0) return new int[][]{newInterval};
+        int[][] newIntervals = new int[intervals.length + 1][2];
+        int index = 0;
+        boolean added = false;
+        for (int i = 0; i <= intervals.length; i++) {
+            if (index > intervals.length - 1 || (newInterval[0] <= intervals[index][0] && !added)) {
+                added = true;
+                newIntervals[i] = newInterval;
             } else {
-                stack.push(i);
+                newIntervals[i] = intervals[index++];
+            }
+        }
+        Stack<int[]> stack = new Stack<>();
+        for (int[] interval : newIntervals) {
+            if (stack.isEmpty()) stack.push(interval);
+            else {
+                if (stack.peek()[1] >= interval[0]) {
+                    stack.peek()[1] = Math.max(stack.peek()[1], interval[1]);
+                } else {
+                    stack.push(interval);
+                }
             }
         }
         int[][] ans = new int[stack.size()][2];
-        for (int i = stack.size() - 1; i >= 0; i--) {
-            ans[i] = stack.pop();
+        int idx = stack.size() - 1;
+        while (!stack.isEmpty()) {
+            ans[idx--] = stack.pop();
         }
         return ans;
     }
-
 }
