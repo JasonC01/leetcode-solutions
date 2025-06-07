@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/JasonC01/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/JasonC01/leetcode-solutions/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/JasonC01/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/JasonC01/leetcode-solutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
@@ -537,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/JasonC01/leetcode-solutions/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/JasonC01/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/JasonC01/leetcode-solutions/tree/master/0200-number-of-islands) |
@@ -612,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/JasonC01/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/JasonC01/leetcode-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/JasonC01/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0064-minimum-path-sum](https://github.com/JasonC01/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/JasonC01/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/JasonC01/leetcode-solutions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/JasonC01/leetcode-solutions/tree/master/0085-maximal-rectangle) |
