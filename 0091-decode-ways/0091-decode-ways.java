@@ -1,27 +1,13 @@
 class Solution {
-    int[] memo;
     public int numDecodings(String s) {
-        memo = new int[s.length()];
-        Arrays.fill(memo, -1);
-        return helper(s, 0);
-    }
-
-    public int helper(String s, int index) {
-        if (index > s.length() - 1) {
-            return 1;
+        int[] dp = new int[s.length() + 1];
+        dp[dp.length - 1] = 1;
+        dp[dp.length - 2] = s.charAt(s.length() - 1) != '0' ? 1 : 0;
+        for (int i = s.length() - 2; i >= 0; i--) {
+            if (s.charAt(i) == '0') continue;
+            dp[i] = dp[i + 1] + (Integer.parseInt(s.substring(i, i + 2)) <= 26 ? dp[i + 2] : 0);
         }
-        if (memo[index] != -1) {
-            return memo[index];
-        }
-        int ans = 0;
-        int s1 = Integer.parseInt(s.substring(index, index + 1));
-int s2 = (index <= s.length() - 2) && s.charAt(index) != '0' ? Integer.parseInt(s.substring(index, index + 2)) : 0;        
-        if (s1 <= 26 && s1 >= 1) {
-            ans += helper(s, index + 1);
-        }
-        if (s2 <= 26 && s2 >= 1) {
-            ans += helper(s, index + 2);
-        }
-        return memo[index] = ans;
+        System.out.println(Arrays.toString(dp));
+        return dp[0];
     }
 }
